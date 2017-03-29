@@ -1,0 +1,8 @@
+Release 14.2 Drc P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Wed Dec 14 00:07:09 2016
+
+drc -z MAIN_2.ncd MAIN_2.pcf
+
+DRC detected 0 errors and 0 warnings.

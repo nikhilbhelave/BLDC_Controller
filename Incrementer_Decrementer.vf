@@ -1,0 +1,190 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Incrementer_Decrementer.vf
+// /___/   /\     Timestamp : 01/08/2017 00:13:37
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog "C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Incrementer_Decrementer.vf" -w "C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Incrementer_Decrementer.sch"
+//Design Name: Incrementer_Decrementer
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Incrementer_Decrementer(add_0, 
+                               I_0, 
+                               I_1, 
+                               I_2, 
+                               I_3, 
+                               I_4, 
+                               I_5, 
+                               I_6, 
+                               I_7, 
+                               I_8, 
+                               O_0, 
+                               O_1, 
+                               O_2, 
+                               O_3, 
+                               O_4, 
+                               O_5, 
+                               O_6, 
+                               O_7, 
+                               O_8);
+
+    input add_0;
+    input I_0;
+    input I_1;
+    input I_2;
+    input I_3;
+    input I_4;
+    input I_5;
+    input I_6;
+    input I_7;
+    input I_8;
+   output O_0;
+   output O_1;
+   output O_2;
+   output O_3;
+   output O_4;
+   output O_5;
+   output O_6;
+   output O_7;
+   output O_8;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_46;
+   wire XLXN_47;
+   wire XLXN_48;
+   wire XLXN_52;
+   wire XLXN_55;
+   wire XLXN_57;
+   wire XLXN_59;
+   wire XLXN_62;
+   wire XLXN_63;
+   wire XLXN_64;
+   wire XLXN_65;
+   wire XLXN_66;
+   wire XLXN_67;
+   wire XLXN_68;
+   wire XLXN_69;
+   wire XLXN_70;
+   wire XLXN_71;
+   wire XLXN_73;
+   wire XLXN_74;
+   wire XLXN_75;
+   
+   XOR2  XLXI_1 (.I0(add_0), 
+                .I1(I_3), 
+                .O(XLXN_2));
+   XOR2  XLXI_2 (.I0(add_0), 
+                .I1(I_2), 
+                .O(XLXN_3));
+   XOR2  XLXI_3 (.I0(add_0), 
+                .I1(I_1), 
+                .O(XLXN_4));
+   INV  XLXI_4 (.I(XLXN_52), 
+               .O(XLXN_63));
+   XOR2  XLXI_5 (.I0(add_0), 
+                .I1(I_5), 
+                .O(XLXN_1));
+   XOR2  XLXI_6 (.I0(add_0), 
+                .I1(I_6), 
+                .O(XLXN_62));
+   XOR2  XLXI_7 (.I0(add_0), 
+                .I1(I_7), 
+                .O(XLXN_5));
+   XOR2  XLXI_8 (.I0(add_0), 
+                .I1(I_4), 
+                .O(XLXN_59));
+   XOR2  XLXI_9 (.I0(add_0), 
+                .I1(I_0), 
+                .O(XLXN_52));
+   XOR2  XLXI_10 (.I0(XLXN_4), 
+                 .I1(XLXN_52), 
+                 .O(XLXN_64));
+   XOR2  XLXI_11 (.I0(XLXN_5), 
+                 .I1(XLXN_75), 
+                 .O(XLXN_68));
+   XOR2  XLXI_12 (.I0(XLXN_62), 
+                 .I1(XLXN_46), 
+                 .O(XLXN_69));
+   XOR2  XLXI_13 (.I0(XLXN_1), 
+                 .I1(XLXN_47), 
+                 .O(XLXN_70));
+   XOR2  XLXI_14 (.I0(XLXN_59), 
+                 .I1(XLXN_48), 
+                 .O(XLXN_67));
+   XOR2  XLXI_15 (.I0(XLXN_2), 
+                 .I1(XLXN_57), 
+                 .O(XLXN_66));
+   XOR2  XLXI_16 (.I0(XLXN_3), 
+                 .I1(XLXN_55), 
+                 .O(XLXN_65));
+   AND2  XLXI_17 (.I0(XLXN_62), 
+                 .I1(XLXN_46), 
+                 .O(XLXN_75));
+   AND2  XLXI_18 (.I0(XLXN_1), 
+                 .I1(XLXN_47), 
+                 .O(XLXN_46));
+   AND2  XLXI_19 (.I0(XLXN_59), 
+                 .I1(XLXN_48), 
+                 .O(XLXN_47));
+   AND2  XLXI_20 (.I0(XLXN_2), 
+                 .I1(XLXN_57), 
+                 .O(XLXN_48));
+   AND2  XLXI_21 (.I0(XLXN_3), 
+                 .I1(XLXN_55), 
+                 .O(XLXN_57));
+   AND2  XLXI_35 (.I0(XLXN_4), 
+                 .I1(XLXN_52), 
+                 .O(XLXN_55));
+   XOR2  XLXI_38 (.I0(add_0), 
+                 .I1(XLXN_63), 
+                 .O(O_0));
+   XOR2  XLXI_39 (.I0(add_0), 
+                 .I1(XLXN_64), 
+                 .O(O_1));
+   XOR2  XLXI_40 (.I0(add_0), 
+                 .I1(XLXN_65), 
+                 .O(O_2));
+   XOR2  XLXI_41 (.I0(add_0), 
+                 .I1(XLXN_66), 
+                 .O(O_3));
+   XOR2  XLXI_42 (.I0(add_0), 
+                 .I1(XLXN_67), 
+                 .O(O_4));
+   XOR2  XLXI_43 (.I0(add_0), 
+                 .I1(XLXN_68), 
+                 .O(O_7));
+   XOR2  XLXI_44 (.I0(add_0), 
+                 .I1(XLXN_69), 
+                 .O(O_6));
+   XOR2  XLXI_45 (.I0(add_0), 
+                 .I1(XLXN_70), 
+                 .O(O_5));
+   XOR2  XLXI_46 (.I0(add_0), 
+                 .I1(XLXN_71), 
+                 .O(O_8));
+   XOR2  XLXI_48 (.I0(XLXN_74), 
+                 .I1(XLXN_73), 
+                 .O(XLXN_71));
+   AND2  XLXI_49 (.I0(XLXN_5), 
+                 .I1(XLXN_75), 
+                 .O(XLXN_73));
+   XOR2  XLXI_50 (.I0(add_0), 
+                 .I1(I_8), 
+                 .O(XLXN_74));
+endmodule

@@ -1,0 +1,52 @@
+Release 14.2 Map P.28xd (nt)
+Xilinx Map Application Log File for Design 'PID_Module'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off
+-c 100 -o PID_Module_map.ncd PID_Module.ngd PID_Module.pcf 
+Target Device  : xc3s250e
+Target Package : cp132
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Tue May 12 11:22:07 2015
+
+Mapping design into LUTs...
+Running directed packing...
+ERROR:Pack:2811 - Directed packing was unable to obey the user design
+   constraints (MACRONAME=XLXI_1/XLXI_23, RLOC=X1Y2) which requires the
+   combination of the symbols listed below to be packed into a single SLICE
+   component.
+
+   The directed pack was not possible because: There are more than two MUXCY
+   symbols.
+   The symbols involved are:
+   	MUXCY symbol "XLXI_1/XLXI_23/XLXI_156" (Output Signal =
+   XLXI_1/XLXI_23/XLXI_156/O)
+   	MUXCY symbol "XLXI_1/XLXI_23/I_36_110" (Output Signal =
+   XLXI_1/XLXI_23/I_36_110/O)
+   	MUXCY symbol "XLXI_1/XLXI_23/I_36_63" (Output Signal =
+   XLXI_1/XLXI_23/I_36_63/O)
+ERROR:Pack:2811 - Directed packing was unable to obey the user design
+   constraints (MACRONAME=XLXI_1/XLXI_29, RLOC=X1Y2) which requires the
+   combination of the symbols listed below to be packed into a single SLICE
+   component.
+
+   The directed pack was not possible because: There are more than two MUXCY
+   symbols.
+   The symbols involved are:
+   	MUXCY symbol "XLXI_1/XLXI_29/XLXI_156" (Output Signal =
+   XLXI_1/XLXI_29/XLXI_156/O)
+   	MUXCY symbol "XLXI_1/XLXI_29/I_36_110" (Output Signal =
+   XLXI_1/XLXI_29/I_36_110/O)
+   	MUXCY symbol "XLXI_1/XLXI_29/I_36_63" (Output Signal =
+   XLXI_1/XLXI_29/I_36_63/O)
+
+Mapping completed.
+See MAP report file "PID_Module_map.mrp" for details.
+Problem encountered during the packing phase.
+
+Design Summary
+--------------
+Number of errors   :   2
+Number of warnings :   0

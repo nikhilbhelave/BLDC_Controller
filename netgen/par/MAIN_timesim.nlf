@@ -1,0 +1,37 @@
+Release 14.2 - netgen P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -s 5 -pcf MAIN.pcf -rpw 100 -tpw 0 -ar
+Structure -tm MAIN -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim
+MAIN.ncd MAIN_timesim.vhd  
+
+Read and Annotate design 'MAIN.ncd' ...
+Loading device for application Rf_Device from file '3s100e.nph' in environment
+C:\Xilinx\14.2\ISE_DS\ISE\.
+   "MAIN" is an NCD, version 3.2, device xc3s100e, package cp132, speed -5
+Loading constraints from 'MAIN.pcf'...
+The speed grade (-5) differs from the speed grade specified in the .ncd file
+(-5).
+The number of routable networks is 30
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist 'C:\Users\Chaitanya
+Paikara\Documents\GitHub\Xilinx_FPGA\BLDC_Controller\netgen\par\MAIN_timesim.vhd
+' ...
+Writing VHDL SDF file 'C:\Users\Chaitanya
+Paikara\Documents\GitHub\Xilinx_FPGA\BLDC_Controller\netgen\par\MAIN_timesim.sdf
+' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx SIMPRIM
+   simulation primitives and has to be used with SIMPRIM library for correct
+   compilation and simulation. 
+INFO:NetListWriters - Xilinx recommends running separate simulations to check
+   for setup by specifying the MAX field in the SDF file and for hold by
+   specifying the MIN field in the SDF file. Please refer to Simulator
+   documentation for more details on specifying MIN and MAX field in the SDF.
+INFO:NetListWriters:665 - For more information on how to pass the SDF switches
+   to the simulator, see your Simulator tool documentation.
+Number of warnings: 0
+Number of info messages: 3
+Total memory usage is 217780 kilobytes

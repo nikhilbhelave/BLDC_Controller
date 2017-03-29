@@ -1,0 +1,3 @@
+vhdl work "C:\Xilinx\BLDC_Controller\MAIN.vhf"
+vhdl work "C:\Xilinx\BLDC_Controller\PWM_VNB.vhf"
+vhdl work "C:\Xilinx\BLDC_Controller\clk_change.vhf"

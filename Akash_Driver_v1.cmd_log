@@ -1,0 +1,9 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Akash_Driver_v1_drc.vhf -w C:/Xilinx/Akash_Driver_v1/Akash_Driver_v1.sch 
+sch2sym -intstyle ise -family spartan3e -refsym Akash_Driver_v1 C:/Xilinx/Akash_Driver_v1/Akash_Driver_v1.sch C:/Xilinx/Akash_Driver_v1/Akash_Driver_v1.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Akash_Driver_v1_drc.vhf -w {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Akash_Driver_v1.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym Akash_Driver_v1 {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Akash_Driver_v1.sch} {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Akash_Driver_v1.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Akash_Driver_v1 {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Akash_Driver_v1.sch} {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Akash_Driver_v1.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Akash_Driver_v1_drc.vhf -w {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Akash_Driver_v1.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Akash_Driver_v1 {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Akash_Driver_v1.sch} {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Akash_Driver_v1.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Akash_Driver_v1_drc.vhf -w {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Akash_Driver_v1.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Akash_Driver_v1 {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Akash_Driver_v1.sch} {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Akash_Driver_v1.sym} 

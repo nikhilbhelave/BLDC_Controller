@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Comparator_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/Comparator.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Comparator {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/Comparator.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/Comparator.sym} 

@@ -1,0 +1,11 @@
+[Inputs]
+CLK
+E
+=D[3:0]=
+[Outputs]
+P
+X
+[BiDir]
+[ATTRIBUTES]
+VeriModel pwm_3
+

@@ -1,0 +1,10 @@
+NET "rpm[0]" LOC = "M5";
+NET "rpm[1]" LOC = "M11";
+NET "rpm[2]" LOC = "P7";
+NET "rpm[3]" LOC = "P6";
+NET "rpm[4]" LOC = "N5" ;
+NET "rpm[5]" LOC = "N4";
+NET "rpm[6]" LOC = "P4" ;
+NET "rpm[7]" LOC = "G1";
+NET "clk" LOC = "B8" ;
+NET "ticks" LOC = "J3" ;

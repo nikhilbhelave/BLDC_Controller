@@ -1,0 +1,3 @@
+vhdl work "netgen/par/MAIN_timesim.vhd"
+verilog work "BLDC_TestBench.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

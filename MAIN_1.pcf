@@ -1,0 +1,32 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Sun Jan 08 18:22:39 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "current_vel<2>" LOCATE = SITE "C5" LEVEL 1;
+COMP "current_vel<3>" LOCATE = SITE "B7" LEVEL 1;
+COMP "current_vel<4>" LOCATE = SITE "A10" LEVEL 1;
+COMP "current_vel<5>" LOCATE = SITE "C9" LEVEL 1;
+COMP "A" LOCATE = SITE "B2" LEVEL 1;
+COMP "B" LOCATE = SITE "C6" LEVEL 1;
+COMP "C" LOCATE = SITE "A9" LEVEL 1;
+COMP "Kp<0>" LOCATE = SITE "G3" LEVEL 1;
+COMP "Kp<1>" LOCATE = SITE "F3" LEVEL 1;
+COMP "Kp<2>" LOCATE = SITE "E2" LEVEL 1;
+COMP "Kd<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "Kp<3>" LOCATE = SITE "N3" LEVEL 1;
+COMP "Kd<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "Kd<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "Kd<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "CLK" LOCATE = SITE "B8" LEVEL 1;
+COMP "H1" LOCATE = SITE "C12" LEVEL 1;
+COMP "H2" LOCATE = SITE "A13" LEVEL 1;
+COMP "H3" LOCATE = SITE "C13" LEVEL 1;
+COMP "AA" LOCATE = SITE "A3" LEVEL 1;
+COMP "current_vel<0>" LOCATE = SITE "J3" LEVEL 1;
+COMP "BB" LOCATE = SITE "B6" LEVEL 1;
+COMP "current_vel<1>" LOCATE = SITE "B5" LEVEL 1;
+COMP "CC" LOCATE = SITE "B9" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

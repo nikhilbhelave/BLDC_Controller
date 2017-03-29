@@ -1,0 +1,5 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl main_sub_drc.vhf -w C:/Xilinx/BLDC_Controller/main_sub.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym main_sub C:/Xilinx/BLDC_Controller/main_sub.sch C:/Xilinx/BLDC_Controller/main_sub.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl main_sub_drc.vhf -w C:/Xilinx/BLDC_Controller/main_sub.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl main_sub_drc.vhf -w C:/Xilinx/BLDC_Controller/main_sub.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym main_sub C:/Xilinx/BLDC_Controller/main_sub.sch C:/Xilinx/BLDC_Controller/main_sub.sym 

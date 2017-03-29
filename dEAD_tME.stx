@@ -1,0 +1,32 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Xilinx/BLDC_Controller/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to C:/Xilinx/BLDC_Controller/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "dEAD_tME.v" in library work
+ERROR:HDLCompilers:26 - "dEAD_tME.v" line 31 unexpected token: '<='
+Module <dEAD_tME> compiled
+ERROR:HDLCompilers:26 - "dEAD_tME.v" line 31 expecting 'endmodule', found '1'
+Analysis of file <"dEAD_tME.prj"> failed.
+--> 
+
+Total memory usage is 261768 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

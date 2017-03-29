@@ -1,0 +1,22 @@
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.v} -lang verilog -prj Akash_Driver_v1 -o PWM_Verilog.spl -module PWM_Verilog -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM_Verilog.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.v} -lang verilog -prj Akash_Driver_v1 -o PWM_Verilog.spl -module PWM_Verilog -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM_Verilog.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.v} -lang verilog -prj Akash_Driver_v1 -o PWM_Verilog.spl -module PWM_Verilog -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM_Verilog.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.v} -lang verilog -prj Akash_Driver_v1 -o PWM_Verilog.spl -module PWM_Verilog -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM_Verilog.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.v} -lang verilog -prj Akash_Driver_v1 -o PWM_Verilog.spl -module PWM_Verilog -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM_Verilog.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.v} -lang verilog -prj Akash_Driver_v1 -o PWM_Verilog.spl -module PWM_Verilog -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM_Verilog.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.v} -lang verilog -prj Akash_Driver_v1 -o PWM_Verilog.spl -module PWM_Verilog -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM_Verilog.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.v} -lang verilog -prj Akash_Driver_v1 -o PWM_Verilog.spl -module PWM_Verilog -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM_Verilog.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.v} -lang verilog -prj Akash_Driver_v1 -o PWM_Verilog.spl -module PWM_Verilog -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM_Verilog.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.v} -lang verilog -prj Akash_Driver_v1 -o PWM_Verilog.spl -module PWM_Verilog -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM_Verilog.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.v} -lang verilog -prj Akash_Driver_v1 -o PWM_Verilog.spl -module PWM_Verilog -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM_Verilog.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_Verilog.sym} 

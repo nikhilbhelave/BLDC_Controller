@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Digital_Filter_drc.vhf -w C:/Xilinx/BLDC_Controller/Digital_Filter.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Digital_Filter C:/Xilinx/BLDC_Controller/Digital_Filter.sch C:/Xilinx/BLDC_Controller/Digital_Filter.sym 

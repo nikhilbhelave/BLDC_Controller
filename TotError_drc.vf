@@ -1,0 +1,615 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : TotError_drc.vf
+// /___/   /\     Timestamp : 01/09/2017 09:36:52
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog TotError_drc.vf -w C:/Xilinx/FPGA/Complete_Fira_1.0/TotError.sch
+//Design Name: TotError
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Multiplier_8_MUSER_TotError(Inp0, 
+                                   Inp1, 
+                                   S_0, 
+                                   Output);
+
+    input [11:0] Inp0;
+    input [11:0] Inp1;
+    input S_0;
+   output [15:0] Output;
+   
+   wire S0;
+   wire XLXN_1;
+   wire XLXN_50;
+   
+   MUXCY  XLXI_18 (.CI(S0), 
+                  .DI(Inp0[1]), 
+                  .S(S_0), 
+                  .O(Output[1]));
+   MUXCY  XLXI_19 (.CI(XLXN_1), 
+                  .DI(Inp0[0]), 
+                  .S(S_0), 
+                  .O(Output[0]));
+   MUXCY  XLXI_21 (.CI(Inp1[0]), 
+                  .DI(Inp0[3]), 
+                  .S(S_0), 
+                  .O(Output[3]));
+   MUXCY  XLXI_24 (.CI(Inp1[1]), 
+                  .DI(Inp0[4]), 
+                  .S(S_0), 
+                  .O(Output[4]));
+   MUXCY  XLXI_25 (.CI(Inp1[2]), 
+                  .DI(Inp0[5]), 
+                  .S(S_0), 
+                  .O(Output[5]));
+   MUXCY  XLXI_26 (.CI(Inp1[3]), 
+                  .DI(Inp0[6]), 
+                  .S(S_0), 
+                  .O(Output[6]));
+   MUXCY  XLXI_27 (.CI(Inp1[4]), 
+                  .DI(Inp0[7]), 
+                  .S(S_0), 
+                  .O(Output[7]));
+   MUXCY  XLXI_28 (.CI(Inp1[5]), 
+                  .DI(Inp0[8]), 
+                  .S(S_0), 
+                  .O(Output[8]));
+   GND  XLXI_29 (.G(XLXN_1));
+   GND  XLXI_30 (.G(S0));
+   MUXCY  XLXI_31 (.CI(Inp1[6]), 
+                  .DI(Inp0[9]), 
+                  .S(S_0), 
+                  .O(Output[9]));
+   MUXCY  XLXI_35 (.CI(Inp1[7]), 
+                  .DI(Inp0[10]), 
+                  .S(S_0), 
+                  .O(Output[10]));
+   MUXCY  XLXI_37 (.CI(Inp1[8]), 
+                  .DI(Inp0[11]), 
+                  .S(S_0), 
+                  .O(Output[11]));
+   MUXCY  XLXI_47 (.CI(Inp1[9]), 
+                  .DI(Inp0[11]), 
+                  .S(S_0), 
+                  .O(Output[12]));
+   MUXCY  XLXI_48 (.CI(Inp1[10]), 
+                  .DI(Inp0[11]), 
+                  .S(S_0), 
+                  .O(Output[13]));
+   MUXCY  XLXI_49 (.CI(Inp1[11]), 
+                  .DI(Inp0[11]), 
+                  .S(S_0), 
+                  .O(Output[14]));
+   MUXCY  XLXI_53 (.CI(XLXN_50), 
+                  .DI(Inp0[2]), 
+                  .S(S_0), 
+                  .O(Output[2]));
+   GND  XLXI_54 (.G(XLXN_50));
+   BUF  XLXI_60 (.I(Inp0[11]), 
+                .O(Output[15]));
+endmodule
+`timescale 1ns / 1ps
+
+module Multiplier_2_MUSER_TotError(Inp0, 
+                                   Inp1, 
+                                   Sel, 
+                                   Output);
+
+    input [8:0] Inp0;
+    input [8:0] Inp1;
+    input Sel;
+   output [9:0] Output;
+   
+   wire XLXN_1;
+   
+   MUXCY  XLXI_18 (.CI(Inp1[0]), 
+                  .DI(Inp0[1]), 
+                  .S(Sel), 
+                  .O(Output[1]));
+   MUXCY  XLXI_19 (.CI(XLXN_1), 
+                  .DI(Inp0[0]), 
+                  .S(Sel), 
+                  .O(Output[0]));
+   MUXCY  XLXI_20 (.CI(Inp1[1]), 
+                  .DI(Inp0[2]), 
+                  .S(Sel), 
+                  .O(Output[2]));
+   MUXCY  XLXI_21 (.CI(Inp1[2]), 
+                  .DI(Inp0[3]), 
+                  .S(Sel), 
+                  .O(Output[3]));
+   MUXCY  XLXI_24 (.CI(Inp1[3]), 
+                  .DI(Inp0[4]), 
+                  .S(Sel), 
+                  .O(Output[4]));
+   MUXCY  XLXI_25 (.CI(Inp1[4]), 
+                  .DI(Inp0[5]), 
+                  .S(Sel), 
+                  .O(Output[5]));
+   MUXCY  XLXI_26 (.CI(Inp1[5]), 
+                  .DI(Inp0[6]), 
+                  .S(Sel), 
+                  .O(Output[6]));
+   MUXCY  XLXI_27 (.CI(Inp1[6]), 
+                  .DI(Inp0[7]), 
+                  .S(Sel), 
+                  .O(Output[7]));
+   MUXCY  XLXI_28 (.CI(Inp1[7]), 
+                  .DI(Inp0[8]), 
+                  .S(Sel), 
+                  .O(Output[8]));
+   GND  XLXI_29 (.G(XLXN_1));
+   BUF  XLXI_34 (.I(Inp1[8]), 
+                .O(Output[9]));
+endmodule
+`timescale 1ns / 1ps
+
+module Multiplier_4_MUSER_TotError(Inp0, 
+                                   Inp1, 
+                                   S_0, 
+                                   Output);
+
+    input [9:0] Inp0;
+    input [9:0] Inp1;
+    input S_0;
+   output [11:0] Output;
+   
+   wire XLXN_1;
+   wire XLXN_30;
+   
+   MUXCY  XLXI_18 (.CI(XLXN_30), 
+                  .DI(Inp0[1]), 
+                  .S(S_0), 
+                  .O(Output[1]));
+   MUXCY  XLXI_19 (.CI(XLXN_1), 
+                  .DI(Inp0[0]), 
+                  .S(S_0), 
+                  .O(Output[0]));
+   MUXCY  XLXI_20 (.CI(Inp1[0]), 
+                  .DI(Inp0[2]), 
+                  .S(S_0), 
+                  .O(Output[2]));
+   MUXCY  XLXI_21 (.CI(Inp1[1]), 
+                  .DI(Inp0[3]), 
+                  .S(S_0), 
+                  .O(Output[3]));
+   MUXCY  XLXI_24 (.CI(Inp1[2]), 
+                  .DI(Inp0[4]), 
+                  .S(S_0), 
+                  .O(Output[4]));
+   MUXCY  XLXI_25 (.CI(Inp1[3]), 
+                  .DI(Inp0[5]), 
+                  .S(S_0), 
+                  .O(Output[5]));
+   MUXCY  XLXI_26 (.CI(Inp1[4]), 
+                  .DI(Inp0[6]), 
+                  .S(S_0), 
+                  .O(Output[6]));
+   MUXCY  XLXI_27 (.CI(Inp1[5]), 
+                  .DI(Inp0[7]), 
+                  .S(S_0), 
+                  .O(Output[7]));
+   MUXCY  XLXI_28 (.CI(Inp1[6]), 
+                  .DI(Inp0[8]), 
+                  .S(S_0), 
+                  .O(Output[8]));
+   GND  XLXI_29 (.G(XLXN_1));
+   GND  XLXI_30 (.G(XLXN_30));
+   MUXCY  XLXI_31 (.CI(Inp1[7]), 
+                  .DI(Inp0[9]), 
+                  .S(S_0), 
+                  .O(Output[9]));
+   BUF  XLXI_39 (.I(Inp1[9]), 
+                .O(Output[11]));
+   MUXCY  XLXI_41 (.CI(Inp1[8]), 
+                  .DI(Inp1[9]), 
+                  .S(S_0), 
+                  .O(Output[10]));
+endmodule
+`timescale 1ns / 1ps
+
+module Multiplier_MUSER_TotError(InPut_9, 
+                                 S_2, 
+                                 S_4, 
+                                 S_8, 
+                                 OutPut_15);
+
+    input [8:0] InPut_9;
+    input S_2;
+    input S_4;
+    input S_8;
+   output [15:0] OutPut_15;
+   
+   wire [9:0] XLXN_6;
+   wire [11:0] XLXN_7;
+   
+   Multiplier_4_MUSER_TotError  XLXI_7 (.Inp0(XLXN_6[9:0]), 
+                                       .Inp1(XLXN_6[9:0]), 
+                                       .S_0(S_4), 
+                                       .Output(XLXN_7[11:0]));
+   Multiplier_2_MUSER_TotError  XLXI_8 (.Inp0(InPut_9[8:0]), 
+                                       .Inp1(InPut_9[8:0]), 
+                                       .Sel(S_2), 
+                                       .Output(XLXN_6[9:0]));
+   Multiplier_8_MUSER_TotError  XLXI_9 (.Inp0(XLXN_7[11:0]), 
+                                       .Inp1(XLXN_7[11:0]), 
+                                       .S_0(S_8), 
+                                       .Output(OutPut_15[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module sub9bit_MUSER_TotError(A, 
+                              ADD, 
+                              B, 
+                              CI, 
+                              CO, 
+                              OFL, 
+                              S);
+
+    input [8:0] A;
+    input ADD;
+    input [8:0] B;
+    input CI;
+   output CO;
+   output OFL;
+   output [8:0] S;
+   
+   wire C0;
+   wire C1;
+   wire C2;
+   wire C3;
+   wire C4;
+   wire C5;
+   wire C6;
+   wire C6O;
+   wire I0;
+   wire I1;
+   wire I2;
+   wire I3;
+   wire I4;
+   wire I5;
+   wire I6;
+   wire I8;
+   wire SUB0;
+   wire SUB1;
+   wire SUB2;
+   wire SUB3;
+   wire SUB4;
+   wire SUB5;
+   wire SUB6;
+   wire SUB7;
+   wire SUB8;
+   wire XLXN_329;
+   wire XLXN_346;
+   wire CO_DUMMY;
+   
+   assign CO = CO_DUMMY;
+   XOR3  I_36_50 (.I0(A[0]), 
+                 .I1(B[0]), 
+                 .I2(SUB0), 
+                 .O(I0));
+   (* RLOC = "X1Y0" *) 
+   MUXCY_L  I_36_55 (.CI(C0), 
+                    .DI(A[1]), 
+                    .S(I1), 
+                    .LO(C1));
+   XOR3  I_36_56 (.I0(A[2]), 
+                 .I1(B[2]), 
+                 .I2(SUB2), 
+                 .O(I2));
+   XOR3  I_36_57 (.I0(A[3]), 
+                 .I1(B[3]), 
+                 .I2(SUB3), 
+                 .O(I3));
+   (* RLOC = "X1Y1" *) 
+   MUXCY_L  I_36_58 (.CI(C2), 
+                    .DI(A[3]), 
+                    .S(I3), 
+                    .LO(C3));
+   XOR3  I_36_59 (.I0(A[6]), 
+                 .I1(B[6]), 
+                 .I2(SUB6), 
+                 .O(I6));
+   XOR3  I_36_60 (.I0(A[4]), 
+                 .I1(B[4]), 
+                 .I2(SUB4), 
+                 .O(I4));
+   (* RLOC = "X1Y1" *) 
+   MUXCY_L  I_36_62 (.CI(C1), 
+                    .DI(A[2]), 
+                    .S(I2), 
+                    .LO(C2));
+   (* RLOC = "X1Y2" *) 
+   MUXCY_L  I_36_63 (.CI(C3), 
+                    .DI(A[4]), 
+                    .S(I4), 
+                    .LO(C4));
+   XORCY  I_36_73 (.CI(CI), 
+                  .LI(I0), 
+                  .O(S[0]));
+   XORCY  I_36_74 (.CI(C0), 
+                  .LI(I1), 
+                  .O(S[1]));
+   XORCY  I_36_75 (.CI(C2), 
+                  .LI(I3), 
+                  .O(S[3]));
+   XORCY  I_36_76 (.CI(C1), 
+                  .LI(I2), 
+                  .O(S[2]));
+   XORCY  I_36_77 (.CI(C4), 
+                  .LI(I5), 
+                  .O(S[5]));
+   XORCY  I_36_78 (.CI(C3), 
+                  .LI(I4), 
+                  .O(S[4]));
+   XOR3  I_36_79 (.I0(A[7]), 
+                 .I1(B[7]), 
+                 .I2(SUB7), 
+                 .O(XLXN_329));
+   XORCY  I_36_80 (.CI(C6), 
+                  .LI(XLXN_329), 
+                  .O(S[7]));
+   XORCY  I_36_81 (.CI(C5), 
+                  .LI(I6), 
+                  .O(S[6]));
+   XOR3  I_36_100 (.I0(A[1]), 
+                  .I1(B[1]), 
+                  .I2(SUB1), 
+                  .O(I1));
+   XOR3  I_36_109 (.I0(A[5]), 
+                  .I1(B[5]), 
+                  .I2(SUB5), 
+                  .O(I5));
+   (* RLOC = "X1Y2" *) 
+   MUXCY_L  I_36_110 (.CI(C4), 
+                     .DI(A[5]), 
+                     .S(I5), 
+                     .LO(C5));
+   (* RLOC = "X1Y0" *) 
+   MUXCY_L  I_36_111 (.CI(CI), 
+                     .DI(A[0]), 
+                     .S(I0), 
+                     .LO(C0));
+   INV  I_36_112 (.I(ADD), 
+                 .O(SUB0));
+   XOR2  I_36_221 (.I0(C6O), 
+                  .I1(CO_DUMMY), 
+                  .O(OFL));
+   INV  I_36_222 (.I(ADD), 
+                 .O(SUB1));
+   INV  I_36_223 (.I(ADD), 
+                 .O(SUB2));
+   INV  I_36_224 (.I(ADD), 
+                 .O(SUB3));
+   INV  I_36_225 (.I(ADD), 
+                 .O(SUB4));
+   INV  I_36_226 (.I(ADD), 
+                 .O(SUB5));
+   INV  I_36_227 (.I(ADD), 
+                 .O(SUB6));
+   INV  I_36_228 (.I(ADD), 
+                 .O(SUB7));
+   (* RLOC = "X1Y3" *) 
+   MUXCY  XLXI_151 (.CI(XLXN_346), 
+                   .DI(A[8]), 
+                   .S(I8), 
+                   .O(CO_DUMMY));
+   XORCY  XLXI_152 (.CI(XLXN_346), 
+                   .LI(I8), 
+                   .O(S[8]));
+   INV  XLXI_153 (.I(ADD), 
+                 .O(SUB8));
+   XOR3  XLXI_154 (.I0(A[8]), 
+                  .I1(B[8]), 
+                  .I2(SUB8), 
+                  .O(I8));
+   (* RLOC = "X1Y3" *) 
+   MUXCY_D  XLXI_155 (.CI(C6), 
+                     .DI(A[7]), 
+                     .S(XLXN_329), 
+                     .LO(XLXN_346), 
+                     .O(C6O));
+   (* RLOC = "X1Y2" *) 
+   MUXCY_L  XLXI_156 (.CI(C5), 
+                     .DI(A[6]), 
+                     .S(I6), 
+                     .LO(C6));
+endmodule
+`timescale 1ns / 1ps
+
+module Flip_flip9_MUSER_TotError(CE, 
+                                 C_0, 
+                                 I_0, 
+                                 I_1, 
+                                 I_2, 
+                                 I_3, 
+                                 I_4, 
+                                 I_5, 
+                                 I_6, 
+                                 I_7, 
+                                 I_8, 
+                                 RST, 
+                                 O_0, 
+                                 O_1, 
+                                 O_2, 
+                                 O_3, 
+                                 O_4, 
+                                 O_5, 
+                                 O_6, 
+                                 O_7, 
+                                 O_8);
+
+    input CE;
+    input C_0;
+    input I_0;
+    input I_1;
+    input I_2;
+    input I_3;
+    input I_4;
+    input I_5;
+    input I_6;
+    input I_7;
+    input I_8;
+    input RST;
+   output O_0;
+   output O_1;
+   output O_2;
+   output O_3;
+   output O_4;
+   output O_5;
+   output O_6;
+   output O_7;
+   output O_8;
+   
+   
+   FDCE #( .INIT(1'b0) ) XLXI_12 (.C(C_0), 
+                 .CE(CE), 
+                 .CLR(RST), 
+                 .D(I_5), 
+                 .Q(O_5));
+   FDCE #( .INIT(1'b0) ) XLXI_13 (.C(C_0), 
+                 .CE(CE), 
+                 .CLR(RST), 
+                 .D(I_4), 
+                 .Q(O_4));
+   FDCE #( .INIT(1'b0) ) XLXI_14 (.C(C_0), 
+                 .CE(CE), 
+                 .CLR(RST), 
+                 .D(I_3), 
+                 .Q(O_3));
+   FDCE #( .INIT(1'b0) ) XLXI_15 (.C(C_0), 
+                 .CE(CE), 
+                 .CLR(RST), 
+                 .D(I_2), 
+                 .Q(O_2));
+   FDCE #( .INIT(1'b0) ) XLXI_16 (.C(C_0), 
+                 .CE(CE), 
+                 .CLR(RST), 
+                 .D(I_1), 
+                 .Q(O_1));
+   FDCE #( .INIT(1'b0) ) XLXI_17 (.C(C_0), 
+                 .CE(CE), 
+                 .CLR(RST), 
+                 .D(I_0), 
+                 .Q(O_0));
+   FDCE #( .INIT(1'b0) ) XLXI_18 (.C(C_0), 
+                 .CE(CE), 
+                 .CLR(RST), 
+                 .D(I_8), 
+                 .Q(O_8));
+   FDCE #( .INIT(1'b0) ) XLXI_19 (.C(C_0), 
+                 .CE(CE), 
+                 .CLR(RST), 
+                 .D(I_7), 
+                 .Q(O_7));
+   FDCE #( .INIT(1'b0) ) XLXI_20 (.C(C_0), 
+                 .CE(CE), 
+                 .CLR(RST), 
+                 .D(I_6), 
+                 .Q(O_6));
+endmodule
+`timescale 1ns / 1ps
+
+module D_error_MUSER_TotError(clk_32, 
+                              Err, 
+                              DErr);
+
+    input clk_32;
+    input [8:0] Err;
+   output [8:0] DErr;
+   
+   wire XLXN_25;
+   
+   Flip_flip9_MUSER_TotError  XLXI_1 (.CE(), 
+                                     .C_0(clk_32), 
+                                     .I_0(Err[0]), 
+                                     .I_1(Err[1]), 
+                                     .I_2(Err[2]), 
+                                     .I_3(Err[3]), 
+                                     .I_4(Err[4]), 
+                                     .I_5(Err[5]), 
+                                     .I_6(Err[6]), 
+                                     .I_7(Err[7]), 
+                                     .I_8(Err[8]), 
+                                     .RST(XLXN_25), 
+                                     .O_0(DErr[0]), 
+                                     .O_1(DErr[1]), 
+                                     .O_2(DErr[2]), 
+                                     .O_3(DErr[3]), 
+                                     .O_4(DErr[4]), 
+                                     .O_5(DErr[5]), 
+                                     .O_6(DErr[6]), 
+                                     .O_7(DErr[7]), 
+                                     .O_8(DErr[8]));
+   GND  XLXI_2 (.G(XLXN_25));
+endmodule
+`timescale 1ns / 1ps
+
+module TotError(clk_32, 
+                SelKd, 
+                SelKp, 
+                Target, 
+                Ticks, 
+                KdMult, 
+                KpMult);
+
+    input clk_32;
+    input [3:0] SelKd;
+    input [3:0] SelKp;
+    input [8:0] Target;
+    input [8:0] Ticks;
+   output [15:0] KdMult;
+   output [15:0] KpMult;
+   
+   wire [8:0] Err;
+   wire [8:0] XLXN_17;
+   wire [8:0] XLXN_25;
+   wire XLXN_27;
+   wire XLXN_28;
+   wire XLXN_29;
+   wire XLXN_30;
+   
+   D_error_MUSER_TotError  XLXI_2 (.clk_32(clk_32), 
+                                  .Err(Err[8:0]), 
+                                  .DErr(XLXN_17[8:0]));
+   sub9bit_MUSER_TotError  XLXI_23 (.A(Err[8:0]), 
+                                   .ADD(XLXN_28), 
+                                   .B(XLXN_17[8:0]), 
+                                   .CI(XLXN_29), 
+                                   .CO(), 
+                                   .OFL(), 
+                                   .S(XLXN_25[8:0]));
+   sub9bit_MUSER_TotError  XLXI_29 (.A(Target[8:0]), 
+                                   .ADD(XLXN_27), 
+                                   .B(Ticks[8:0]), 
+                                   .CI(XLXN_30), 
+                                   .CO(), 
+                                   .OFL(), 
+                                   .S(Err[8:0]));
+   Multiplier_MUSER_TotError  XLXI_35 (.InPut_9(Err[8:0]), 
+                                      .S_2(SelKp[0]), 
+                                      .S_4(SelKp[1]), 
+                                      .S_8(SelKp[2]), 
+                                      .OutPut_15(KpMult[15:0]));
+   Multiplier_MUSER_TotError  XLXI_37 (.InPut_9(XLXN_25[8:0]), 
+                                      .S_2(SelKd[0]), 
+                                      .S_4(SelKd[1]), 
+                                      .S_8(SelKd[2]), 
+                                      .OutPut_15(KdMult[15:0]));
+   GND  XLXI_38 (.G(XLXN_27));
+   GND  XLXI_39 (.G(XLXN_28));
+   VCC  XLXI_40 (.P(XLXN_29));
+   VCC  XLXI_41 (.P(XLXN_30));
+endmodule

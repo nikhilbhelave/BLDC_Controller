@@ -1,0 +1,392 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : PID_Module_drc.vf
+// /___/   /\     Timestamp : 05/10/2015 00:43:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog PID_Module_drc.vf -w E:/FPGA_Xilinx/PID/PID_Module.sch
+//Design Name: PID_Module
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ADD16_MXILINX_PID_Module(A, 
+                                B, 
+                                CI, 
+                                CO, 
+                                OFL, 
+                                S);
+
+    input [15:0] A;
+    input [15:0] B;
+    input CI;
+   output CO;
+   output OFL;
+   output [15:0] S;
+   
+   wire C0;
+   wire C1;
+   wire C2;
+   wire C3;
+   wire C4;
+   wire C5;
+   wire C6;
+   wire C7;
+   wire C8;
+   wire C9;
+   wire C10;
+   wire C11;
+   wire C12;
+   wire C13;
+   wire C14;
+   wire C14O;
+   wire dummy;
+   wire I0;
+   wire I1;
+   wire I2;
+   wire I3;
+   wire I4;
+   wire I5;
+   wire I6;
+   wire I7;
+   wire I8;
+   wire I9;
+   wire I10;
+   wire I11;
+   wire I12;
+   wire I13;
+   wire I14;
+   wire I15;
+   wire CO_DUMMY;
+   
+   assign CO = CO_DUMMY;
+   (* RLOC = "X0Y4" *) 
+   FMAP  I_36_16 (.I1(A[8]), 
+                 .I2(B[8]), 
+                 .I3(dummy), 
+                 .I4(dummy), 
+                 .O(I8));
+   (* RLOC = "X0Y4" *) 
+   FMAP  I_36_17 (.I1(A[9]), 
+                 .I2(B[9]), 
+                 .I3(dummy), 
+                 .I4(dummy), 
+                 .O(I9));
+   (* RLOC = "X0Y5" *) 
+   FMAP  I_36_18 (.I1(A[10]), 
+                 .I2(B[10]), 
+                 .I3(dummy), 
+                 .I4(dummy), 
+                 .O(I10));
+   (* RLOC = "X0Y5" *) 
+   FMAP  I_36_19 (.I1(A[11]), 
+                 .I2(B[11]), 
+                 .I3(dummy), 
+                 .I4(dummy), 
+                 .O(I11));
+   (* RLOC = "X0Y6" *) 
+   FMAP  I_36_20 (.I1(A[12]), 
+                 .I2(B[12]), 
+                 .I3(dummy), 
+                 .I4(dummy), 
+                 .O(I12));
+   (* RLOC = "X0Y6" *) 
+   FMAP  I_36_21 (.I1(A[13]), 
+                 .I2(B[13]), 
+                 .I3(dummy), 
+                 .I4(dummy), 
+                 .O(I13));
+   (* RLOC = "X0Y7" *) 
+   FMAP  I_36_22 (.I1(A[14]), 
+                 .I2(B[14]), 
+                 .I3(dummy), 
+                 .I4(dummy), 
+                 .O(I14));
+   (* RLOC = "X0Y7" *) 
+   FMAP  I_36_23 (.I1(A[15]), 
+                 .I2(B[15]), 
+                 .I3(dummy), 
+                 .I4(dummy), 
+                 .O(I15));
+   (* RLOC = "X0Y4" *) 
+   MUXCY_L  I_36_55 (.CI(C8), 
+                    .DI(A[9]), 
+                    .S(I9), 
+                    .LO(C9));
+   (* RLOC = "X0Y5" *) 
+   MUXCY_L  I_36_58 (.CI(C10), 
+                    .DI(A[11]), 
+                    .S(I11), 
+                    .LO(C11));
+   (* RLOC = "X0Y5" *) 
+   MUXCY_L  I_36_62 (.CI(C9), 
+                    .DI(A[10]), 
+                    .S(I10), 
+                    .LO(C10));
+   (* RLOC = "X0Y6" *) 
+   MUXCY_L  I_36_63 (.CI(C11), 
+                    .DI(A[12]), 
+                    .S(I12), 
+                    .LO(C12));
+   (* RLOC = "X0Y7" *) 
+   MUXCY  I_36_64 (.CI(C14), 
+                  .DI(A[15]), 
+                  .S(I15), 
+                  .O(CO_DUMMY));
+   XORCY  I_36_73 (.CI(C7), 
+                  .LI(I8), 
+                  .O(S[8]));
+   XORCY  I_36_74 (.CI(C8), 
+                  .LI(I9), 
+                  .O(S[9]));
+   XORCY  I_36_75 (.CI(C10), 
+                  .LI(I11), 
+                  .O(S[11]));
+   XORCY  I_36_76 (.CI(C9), 
+                  .LI(I10), 
+                  .O(S[10]));
+   XORCY  I_36_77 (.CI(C12), 
+                  .LI(I13), 
+                  .O(S[13]));
+   XORCY  I_36_78 (.CI(C11), 
+                  .LI(I12), 
+                  .O(S[12]));
+   XORCY  I_36_80 (.CI(C14), 
+                  .LI(I15), 
+                  .O(S[15]));
+   XORCY  I_36_81 (.CI(C13), 
+                  .LI(I14), 
+                  .O(S[14]));
+   (* RLOC = "X0Y7" *) 
+   MUXCY_D  I_36_107 (.CI(C13), 
+                     .DI(A[14]), 
+                     .S(I14), 
+                     .LO(C14), 
+                     .O(C14O));
+   (* RLOC = "X0Y6" *) 
+   MUXCY_L  I_36_110 (.CI(C12), 
+                     .DI(A[13]), 
+                     .S(I13), 
+                     .LO(C13));
+   (* RLOC = "X0Y4" *) 
+   MUXCY_L  I_36_111 (.CI(C7), 
+                     .DI(A[8]), 
+                     .S(I8), 
+                     .LO(C8));
+   XORCY  I_36_226 (.CI(CI), 
+                   .LI(I0), 
+                   .O(S[0]));
+   XORCY  I_36_227 (.CI(C0), 
+                   .LI(I1), 
+                   .O(S[1]));
+   XORCY  I_36_228 (.CI(C2), 
+                   .LI(I3), 
+                   .O(S[3]));
+   XORCY  I_36_229 (.CI(C1), 
+                   .LI(I2), 
+                   .O(S[2]));
+   XORCY  I_36_230 (.CI(C4), 
+                   .LI(I5), 
+                   .O(S[5]));
+   XORCY  I_36_231 (.CI(C3), 
+                   .LI(I4), 
+                   .O(S[4]));
+   XORCY  I_36_233 (.CI(C6), 
+                   .LI(I7), 
+                   .O(S[7]));
+   XORCY  I_36_234 (.CI(C5), 
+                   .LI(I6), 
+                   .O(S[6]));
+   (* RLOC = "X0Y3" *) 
+   MUXCY_L  I_36_248 (.CI(C6), 
+                     .DI(A[7]), 
+                     .S(I7), 
+                     .LO(C7));
+   (* RLOC = "X0Y3" *) 
+   MUXCY_L  I_36_249 (.CI(C5), 
+                     .DI(A[6]), 
+                     .S(I6), 
+                     .LO(C6));
+   (* RLOC = "X0Y2" *) 
+   MUXCY_L  I_36_250 (.CI(C4), 
+                     .DI(A[5]), 
+                     .S(I5), 
+                     .LO(C5));
+   (* RLOC = "X0Y2" *) 
+   MUXCY_L  I_36_251 (.CI(C3), 
+                     .DI(A[4]), 
+                     .S(I4), 
+                     .LO(C4));
+   (* RLOC = "X0Y1" *) 
+   MUXCY_L  I_36_252 (.CI(C2), 
+                     .DI(A[3]), 
+                     .S(I3), 
+                     .LO(C3));
+   (* RLOC = "X0Y1" *) 
+   MUXCY_L  I_36_253 (.CI(C1), 
+                     .DI(A[2]), 
+                     .S(I2), 
+                     .LO(C2));
+   (* RLOC = "X0Y0" *) 
+   MUXCY_L  I_36_254 (.CI(C0), 
+                     .DI(A[1]), 
+                     .S(I1), 
+                     .LO(C1));
+   (* RLOC = "X0Y0" *) 
+   MUXCY_L  I_36_255 (.CI(CI), 
+                     .DI(A[0]), 
+                     .S(I0), 
+                     .LO(C0));
+   (* RLOC = "X0Y0" *) 
+   FMAP  I_36_272 (.I1(A[1]), 
+                  .I2(B[1]), 
+                  .I3(dummy), 
+                  .I4(dummy), 
+                  .O(I1));
+   (* RLOC = "X0Y0" *) 
+   FMAP  I_36_275 (.I1(A[0]), 
+                  .I2(B[0]), 
+                  .I3(dummy), 
+                  .I4(dummy), 
+                  .O(I0));
+   (* RLOC = "X0Y1" *) 
+   FMAP  I_36_279 (.I1(A[2]), 
+                  .I2(B[2]), 
+                  .I3(dummy), 
+                  .I4(dummy), 
+                  .O(I2));
+   (* RLOC = "X0Y1" *) 
+   FMAP  I_36_283 (.I1(A[3]), 
+                  .I2(B[3]), 
+                  .I3(dummy), 
+                  .I4(dummy), 
+                  .O(I3));
+   (* RLOC = "X0Y2" *) 
+   FMAP  I_36_287 (.I1(A[4]), 
+                  .I2(B[4]), 
+                  .I3(dummy), 
+                  .I4(dummy), 
+                  .O(I4));
+   (* RLOC = "X0Y2" *) 
+   FMAP  I_36_291 (.I1(A[5]), 
+                  .I2(B[5]), 
+                  .I3(dummy), 
+                  .I4(dummy), 
+                  .O(I5));
+   (* RLOC = "X0Y3" *) 
+   FMAP  I_36_295 (.I1(A[6]), 
+                  .I2(B[6]), 
+                  .I3(dummy), 
+                  .I4(dummy), 
+                  .O(I6));
+   (* RLOC = "X0Y3" *) 
+   FMAP  I_36_299 (.I1(A[7]), 
+                  .I2(B[7]), 
+                  .I3(dummy), 
+                  .I4(dummy), 
+                  .O(I7));
+   XOR2  I_36_354 (.I0(A[0]), 
+                  .I1(B[0]), 
+                  .O(I0));
+   XOR2  I_36_355 (.I0(A[1]), 
+                  .I1(B[1]), 
+                  .O(I1));
+   XOR2  I_36_356 (.I0(A[2]), 
+                  .I1(B[2]), 
+                  .O(I2));
+   XOR2  I_36_357 (.I0(A[3]), 
+                  .I1(B[3]), 
+                  .O(I3));
+   XOR2  I_36_358 (.I0(A[4]), 
+                  .I1(B[4]), 
+                  .O(I4));
+   XOR2  I_36_359 (.I0(A[5]), 
+                  .I1(B[5]), 
+                  .O(I5));
+   XOR2  I_36_360 (.I0(A[6]), 
+                  .I1(B[6]), 
+                  .O(I6));
+   XOR2  I_36_361 (.I0(A[7]), 
+                  .I1(B[7]), 
+                  .O(I7));
+   XOR2  I_36_362 (.I0(A[8]), 
+                  .I1(B[8]), 
+                  .O(I8));
+   XOR2  I_36_363 (.I0(A[9]), 
+                  .I1(B[9]), 
+                  .O(I9));
+   XOR2  I_36_364 (.I0(A[10]), 
+                  .I1(B[10]), 
+                  .O(I10));
+   XOR2  I_36_365 (.I0(A[11]), 
+                  .I1(B[11]), 
+                  .O(I11));
+   XOR2  I_36_366 (.I0(A[12]), 
+                  .I1(B[12]), 
+                  .O(I12));
+   XOR2  I_36_367 (.I0(A[13]), 
+                  .I1(B[13]), 
+                  .O(I13));
+   XOR2  I_36_368 (.I0(A[14]), 
+                  .I1(B[14]), 
+                  .O(I14));
+   XOR2  I_36_369 (.I0(A[15]), 
+                  .I1(B[15]), 
+                  .O(I15));
+   XOR2  I_36_375 (.I0(C14O), 
+                  .I1(CO_DUMMY), 
+                  .O(OFL));
+endmodule
+`timescale 1ns / 1ps
+
+module PID_Module(CLK_TInt, 
+                  Kd, 
+                  Kp, 
+                  Target, 
+                  Ticks, 
+                  OCR1, 
+                  OCR2);
+
+    input CLK_TInt;
+    input [2:0] Kd;
+    input [2:0] Kp;
+    input [8:0] Target;
+    input [8:0] Ticks;
+   output [7:0] OCR1;
+   output [7:0] OCR2;
+   
+   wire [15:0] XLXN_6;
+   wire [15:0] XLXN_7;
+   wire XLXN_11;
+   wire [15:0] XLXN_17;
+   
+   TotError  XLXI_1 (.clk_32(CLK_TInt), 
+                    .SelKd(Kd[2:0]), 
+                    .SelKp(Kp[2:0]), 
+                    .Target(Target[8:0]), 
+                    .Ticks(Ticks[8:0]), 
+                    .KdMult(XLXN_7[15:0]), 
+                    .KpMult(XLXN_6[15:0]));
+   (* HU_SET = "XLXI_2_0" *) 
+   ADD16_MXILINX_PID_Module  XLXI_2 (.A(XLXN_6[15:0]), 
+                                    .B(XLXN_7[15:0]), 
+                                    .CI(XLXN_11), 
+                                    .CO(), 
+                                    .OFL(), 
+                                    .S(XLXN_17[15:0]));
+   GND  XLXI_3 (.G(XLXN_11));
+   OCR_Generator  XLXI_4 (.C_0(CLK_TInt), 
+                         .OCR_In(XLXN_17[15:0]), 
+                         .OCR1(OCR1[7:0]), 
+                         .OCR2(OCR2[7:0]));
+endmodule

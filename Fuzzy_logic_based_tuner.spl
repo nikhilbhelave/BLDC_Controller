@@ -1,0 +1,12 @@
+[Inputs]
+clk
+enable
+=target_vel[9:0]=
+=current_vel[9:0]=
+[Outputs]
+=Kp[3:0]=
+=Kd[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Fuzzy_logic_based_tuner
+

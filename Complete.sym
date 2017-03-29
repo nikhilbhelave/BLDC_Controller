@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Complete">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-3-28T9:51:32</timestamp>
+    <pin polarity="Input" x="0" y="-544" name="clk" />
+    <pin polarity="Input" x="0" y="-288" name="E_2" />
+    <pin polarity="Input" x="0" y="-224" name="E_1" />
+    <pin polarity="Input" x="0" y="-32" name="RST_1" />
+    <pin polarity="Input" x="0" y="224" name="H3" />
+    <pin polarity="Input" x="0" y="480" name="H2" />
+    <pin polarity="Input" x="0" y="736" name="H1" />
+    <pin polarity="Input" x="0" y="992" name="Kp(3:0)" />
+    <pin polarity="Input" x="0" y="1248" name="Kd(3:0)" />
+    <pin polarity="Output" x="384" y="1760" name="Led(8:0)" />
+    <pin polarity="Output" x="384" y="224" name="BB" />
+    <pin polarity="Output" x="384" y="480" name="CC" />
+    <pin polarity="Output" x="384" y="736" name="AA" />
+    <pin polarity="Output" x="384" y="992" name="A" />
+    <pin polarity="Output" x="384" y="1248" name="B" />
+    <pin polarity="Output" x="384" y="1504" name="C" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-584" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin E_2" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin E_1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin RST_1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="224" type="pin H3" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="480" type="pin H2" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="736" type="pin H1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="992" type="pin Kp(3:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="1248" type="pin Kd(3:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="1760" type="pin Led(8:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="224" type="pin BB" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="480" type="pin CC" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="736" type="pin AA" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="992" type="pin A" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="1248" type="pin B" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="1504" type="pin C" />
+        <rect width="64" x="320" y="1748" height="24" />
+        <line x2="384" y1="1760" y2="1760" x1="320" />
+        <line x2="0" y1="224" y2="224" x1="64" />
+        <line x2="0" y1="480" y2="480" x1="64" />
+        <line x2="0" y1="736" y2="736" x1="64" />
+        <rect width="64" x="0" y="980" height="24" />
+        <line x2="0" y1="992" y2="992" x1="64" />
+        <rect width="64" x="0" y="1236" height="24" />
+        <line x2="0" y1="1248" y2="1248" x1="64" />
+        <line x2="384" y1="224" y2="224" x1="320" />
+        <line x2="384" y1="480" y2="480" x1="320" />
+        <line x2="384" y1="736" y2="736" x1="320" />
+        <line x2="384" y1="992" y2="992" x1="320" />
+        <line x2="384" y1="1248" y2="1248" x1="320" />
+        <line x2="384" y1="1504" y2="1504" x1="320" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <rect width="256" x="64" y="-576" height="2880" />
+    </graph>
+</symbol>

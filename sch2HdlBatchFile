@@ -1,0 +1,3 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Xilinx/BLDC_Controller/Complete.vhf,-w,C:/Xilinx/BLDC_Controller/Complete.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Xilinx/BLDC_Controller/Main_Module.vhf,-w,C:/Xilinx/BLDC_Controller/Main_Module.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Xilinx/BLDC_Controller/MAIN_1.vhf,-w,C:/Xilinx/BLDC_Controller/MAIN_1.sch

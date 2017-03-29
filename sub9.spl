@@ -1,0 +1,9 @@
+[Inputs]
+=A[8:0]=
+=B[8:0]=
+[Outputs]
+=D[8:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel sub9
+

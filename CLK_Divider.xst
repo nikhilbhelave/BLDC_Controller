@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/xst"
+elaborate
+-ifn CLK_Divider.prj
+-ifmt mixed

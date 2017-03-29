@@ -1,0 +1,316 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: encoder.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "encoder.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "encoder"
+Output Format                      : NGC
+Target Device                      : xc3s250e-5-cp132
+
+---- Source Options
+Top Module Name                    : encoder
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "encoder.v" in library work
+Module <encoder> compiled
+No errors in compilation
+Analysis of file <"encoder.prj"> succeeded.
+ 
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/clk_change.vhf" in Library work.
+Architecture behavioral of Entity cj4ce_mxilinx_clk_change is up to date.
+Architecture behavioral of Entity clk_change is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/PWM_VNB.vhf" in Library work.
+Architecture behavioral of Entity ftrse_mxilinx_pwm_vnb is up to date.
+Architecture behavioral of Entity cb4re_mxilinx_pwm_vnb is up to date.
+Architecture behavioral of Entity pwm_v2_muser_pwm_vnb is up to date.
+Architecture behavioral of Entity comparator_muser_pwm_vnb is up to date.
+Architecture behavioral of Entity pwm_vnb is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/PWM_V2.vhf" in Library work.
+Architecture behavioral of Entity pwm_v2 is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf" in Library work.
+Architecture behavioral of Entity ftrse_mxilinx_pwm_nb_2 is up to date.
+Architecture behavioral of Entity cb4re_mxilinx_pwm_nb_2 is up to date.
+Architecture behavioral of Entity pwm_v2_muser_pwm_nb_2 is up to date.
+Architecture behavioral of Entity comparator_muser_pwm_nb_2 is up to date.
+Architecture behavioral of Entity pwm_nb_2 is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/PWM.vhf" in Library work.
+Architecture behavioral of Entity ftce_mxilinx_pwm is up to date.
+Architecture behavioral of Entity cb4ce_mxilinx_pwm is up to date.
+Architecture behavioral of Entity pwm is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/MAIN.vhf" in Library work.
+Architecture behavioral of Entity commutation_muser_main is up to date.
+Architecture behavioral of Entity ftrse_mxilinx_main is up to date.
+Architecture behavioral of Entity cb4re_mxilinx_main is up to date.
+Architecture behavioral of Entity pwm_v2_muser_main is up to date.
+Architecture behavioral of Entity comparator_muser_main is up to date.
+Architecture behavioral of Entity pwm_vnb_muser_main is up to date.
+Architecture behavioral of Entity or6_mxilinx_main is up to date.
+Architecture behavioral of Entity m2_1_mxilinx_main is up to date.
+Architecture behavioral of Entity main is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/DEADTIME.vhf" in Library work.
+Architecture behavioral of Entity deadtime is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/Comparator.vhf" in Library work.
+Architecture behavioral of Entity pwm_v2_muser_comparator is up to date.
+Architecture behavioral of Entity comparator is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <encoder> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <encoder>.
+Module <encoder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <x> in unit <encoder> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <encoder>.
+    Related source file is "encoder.v".
+    Found 10-bit register for signal <rpm>.
+    Found 18-bit up counter for signal <c>.
+    Found 18-bit comparator greater for signal <rpm$cmp_gt0000> created at line 36.
+    Found 16x6-bit multiplier for signal <rpm$mult0000> created at line 38.
+    Found 16-bit up counter for signal <x>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   1 Multiplier(s).
+	inferred   1 Comparator(s).
+Unit <encoder> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 16x6-bit multiplier                                   : 1
+# Counters                                             : 2
+ 16-bit up counter                                     : 1
+ 18-bit up counter                                     : 1
+# Registers                                            : 1
+ 10-bit register                                       : 1
+# Comparators                                          : 1
+ 18-bit comparator greater                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 16x6-bit multiplier                                   : 1
+# Counters                                             : 2
+ 16-bit up counter                                     : 1
+ 18-bit up counter                                     : 1
+# Registers                                            : 10
+ Flip-Flops                                            : 10
+# Comparators                                          : 1
+ 18-bit comparator greater                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_cy<0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_0>
+   Signal <x<0>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_1>
+   Signal <x<1>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<2>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_2>
+   Signal <x<2>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<3>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_3>
+   Signal <x<3>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<4>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_4>
+   Signal <x<4>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<5>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_5>
+   Signal <x<5>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<6>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_6>
+   Signal <x<6>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<7>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_7>
+   Signal <x<7>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<8>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_8>
+   Signal <x<8>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<9>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_9>
+   Signal <x<9>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<10>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_10>
+   Signal <x<10>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<11>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_11>
+   Signal <x<11>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<12>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_12>
+   Signal <x<12>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<13>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_13>
+   Signal <x<13>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<14>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_14>
+   Signal <x<14>> in Unit <encoder> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <encoder> on signal <Mcount_x_lut<15>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <x_15>
+   Signal <x<15>> in Unit <encoder> is assigned to GND
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.50 secs
+ 
+--> 
+
+Total memory usage is 302360 kilobytes
+
+Number of errors   :   16 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

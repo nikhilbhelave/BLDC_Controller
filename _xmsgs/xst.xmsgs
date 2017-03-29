@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">vel_output_w&lt;13:9&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">target_vel_r</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000000101</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Delta_ERR_Wire</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">PID.v</arg>&quot; line <arg fmt="%d" index="2">41</arg>: The result of a <arg fmt="%d" index="3">10</arg>x<arg fmt="%d" index="4">5</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">14</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_361</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2385" delta="old" >HDL ADVISOR - You can improve the performance of the multiplier <arg fmt="%s" index="1">Mmult_vel_output_w_mult0001</arg> by adding <arg fmt="%d" index="2">1</arg> register level(s).
+</msg>
+
+<msg type="info" file="Xst" num="2385" delta="old" >HDL ADVISOR - You can improve the performance of the multiplier <arg fmt="%s" index="1">Mmult_vel_output_w_mult0002</arg> by adding <arg fmt="%d" index="2">1</arg> register level(s).
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

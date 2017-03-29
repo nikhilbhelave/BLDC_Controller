@@ -1,0 +1,56 @@
+sch2sym -intstyle ise -family spartan3e -refsym Main_Module E:/FPGA_Xilinx/ETC_WITH_LEDs/Main_Module.sch E:/FPGA_Xilinx/Complete_Fira_1.0/Main_Module.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog Main_Module_drc.vf -w E:/FPGA_Xilinx/ETC_WITH_LEDs/Main_Module.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog Main_Module_drc.vf -w E:/FPGA_Xilinx/ETC_WITH_LEDs/Main_Module.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module E:/FPGA_Xilinx/ETC_WITH_LEDs/Main_Module.sch E:/FPGA_Xilinx/Complete_Fira_1.0/Main_Module.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module E:/FPGA_Xilinx/ETC_WITH_LEDs/Main_Module.sch E:/FPGA_Xilinx/Complete_Fira_1.0/Main_Module.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog Main_Module_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Main_Module.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Main_Module.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Main_Module.sym} 
+sch2hdl -intstyle ise -family spartan3e -verilog Main_Module_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Main_Module.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Main_Module.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Main_Module.sym} 
+sch2hdl -intstyle ise -family spartan3e -verilog Main_Module_drc.vf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Main_Module.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Main_Module.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Main_Module.sym} 
+xst -intstyle ise -ifn "C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Main_Module.xst" -ofn "C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 "Main_Module.ngc" Main_Module.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc3s250e-cp132-5 "Main_Module.ngc" Main_Module.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_Module_drc.vhf -w C:/Xilinx/BLDC_Controller/Main_Module.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module C:/Xilinx/BLDC_Controller/Main_Module.sch C:/Xilinx/BLDC_Controller/Main_Module.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_Module_drc.vhf -w C:/Xilinx/BLDC_Controller/Main_Module.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module C:/Xilinx/BLDC_Controller/Main_Module.sch C:/Xilinx/BLDC_Controller/Main_Module.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_Module_drc.vhf -w C:/Xilinx/BLDC_Controller/Main_Module.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module C:/Xilinx/BLDC_Controller/Main_Module.sch C:/Xilinx/BLDC_Controller/Main_Module.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_Module_drc.vhf -w C:/Xilinx/BLDC_Controller/Main_Module.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module C:/Xilinx/BLDC_Controller/Main_Module.sch C:/Xilinx/BLDC_Controller/Main_Module.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_Module_drc.vhf -w C:/Xilinx/BLDC_Controller/Main_Module.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module C:/Xilinx/BLDC_Controller/Main_Module.sch C:/Xilinx/BLDC_Controller/Main_Module.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_Module_drc.vhf -w C:/Xilinx/BLDC_Controller/Main_Module.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module C:/Xilinx/BLDC_Controller/Main_Module.sch C:/Xilinx/BLDC_Controller/Main_Module.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Main_Module.xst" -ofn "C:/Xilinx/BLDC_Controller/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Encoder_new.ucf -p xc3s250e-cp132-5 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Encoder_new.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Main_Module.xst" -ofn "C:/Xilinx/BLDC_Controller/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Encoder_new.ucf -p xc3s250e-cp132-5 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Encoder_new.ucf 
+netgen -intstyle ise -s 5  -pcf Main_Module.pcf -rpw 100 -tpw 0 -ar Structure -tm Main_Module -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Main_Module.ncd Main_Module_timesim.vhd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_Module_drc.vhf -w C:/Xilinx/BLDC_Controller/Main_Module.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module C:/Xilinx/BLDC_Controller/Main_Module.sch C:/Xilinx/BLDC_Controller/Main_Module.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Main_Module.xst" -ofn "C:/Xilinx/BLDC_Controller/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Encoder_new.ucf -p xc3s250e-cp132-5 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Encoder_new.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Main_Module_drc.vhf -w C:/Xilinx/BLDC_Controller/Main_Module.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module C:/Xilinx/BLDC_Controller/Main_Module.sch C:/Xilinx/BLDC_Controller/Main_Module.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym Main_Module C:/Xilinx/BLDC_Controller/Main_Module.sch C:/Xilinx/BLDC_Controller/Main_Module.sym 

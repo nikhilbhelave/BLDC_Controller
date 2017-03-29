@@ -1,0 +1,3 @@
+select figure at 2926 1729 8 -wires -sn=1
+select figure at 124 114 8 -wires -sn=1
+select all in 124 114 3433 2399 -wires -enclosed -sn=1

@@ -1,0 +1,10 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl ETC_SYNCRONOUS_drc.vhf -w C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym ETC_SYNCRONOUS C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.sch C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl ETC_SYNCRONOUS_drc.vhf -w C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym ETC_SYNCRONOUS C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.sch C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.xst" -ofn "C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ETC.ucf -p xc3s250e-cp132-5 ETC_SYNCRONOUS.ngc ETC_SYNCRONOUS.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o ETC_SYNCRONOUS_map.ncd ETC_SYNCRONOUS.ngd ETC_SYNCRONOUS.pcf 
+par -w -intstyle ise -ol high -t 1 ETC_SYNCRONOUS_map.ncd ETC_SYNCRONOUS.ncd ETC_SYNCRONOUS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ETC_SYNCRONOUS.twx ETC_SYNCRONOUS.ncd -o ETC_SYNCRONOUS.twr ETC_SYNCRONOUS.pcf -ucf ETC.ucf 
+bitgen -intstyle ise -f ETC_SYNCRONOUS.ut ETC_SYNCRONOUS.ncd 

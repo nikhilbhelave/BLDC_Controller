@@ -1,0 +1,81 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : FD9CE.vf
+// /___/   /\     Timestamp : 01/08/2017 00:13:36
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog "C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/FD9CE.vf" -w "C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/FD9CE.sch"
+//Design Name: FD9CE
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FD9CE(C, 
+             CE, 
+             CLR, 
+             D, 
+             Q);
+
+    input C;
+    input CE;
+    input CLR;
+    input [8:0] D;
+   output [8:0] Q;
+   
+   
+   FDCE #( .INIT(1'b0) ) I_Q0 (.C(C), 
+              .CE(CE), 
+              .CLR(CLR), 
+              .D(D[0]), 
+              .Q(Q[0]));
+   FDCE #( .INIT(1'b0) ) I_Q1 (.C(C), 
+              .CE(CE), 
+              .CLR(CLR), 
+              .D(D[1]), 
+              .Q(Q[1]));
+   FDCE #( .INIT(1'b0) ) I_Q2 (.C(C), 
+              .CE(CE), 
+              .CLR(CLR), 
+              .D(D[2]), 
+              .Q(Q[2]));
+   FDCE #( .INIT(1'b0) ) I_Q3 (.C(C), 
+              .CE(CE), 
+              .CLR(CLR), 
+              .D(D[3]), 
+              .Q(Q[3]));
+   FDCE #( .INIT(1'b0) ) I_Q4 (.C(C), 
+              .CE(CE), 
+              .CLR(CLR), 
+              .D(D[4]), 
+              .Q(Q[4]));
+   FDCE #( .INIT(1'b0) ) I_Q5 (.C(C), 
+              .CE(CE), 
+              .CLR(CLR), 
+              .D(D[5]), 
+              .Q(Q[5]));
+   FDCE #( .INIT(1'b0) ) I_Q6 (.C(C), 
+              .CE(CE), 
+              .CLR(CLR), 
+              .D(D[6]), 
+              .Q(Q[6]));
+   FDCE #( .INIT(1'b0) ) I_Q7 (.C(C), 
+              .CE(CE), 
+              .CLR(CLR), 
+              .D(D[7]), 
+              .Q(Q[7]));
+   FDCE #( .INIT(1'b0) ) XLXI_9 (.C(C), 
+                .CE(CE), 
+                .CLR(CLR), 
+                .D(D[8]), 
+                .Q(Q[8]));
+endmodule

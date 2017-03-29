@@ -1,0 +1,16 @@
+select figure at 1656 1850 8 -branches -sn=1
+select figure at 1342 1436 8 -branches -sn=1
+select figure at 1255 1418 8 -branches -sn=1
+select figure at 1255 1418 8 -branches -sn=1
+select figure at 1672 1378 8 -branches -sn=1
+select figure at 1945 936 8 -branches -sn=1
+select figure at 1300 902 8 -branches -sn=1
+select figure at 1605 1407 8 -branches -sn=1
+select figure at 1632 1434 8 -branches -sn=1
+select figure at 1632 1434 8 -branches -sn=1
+select figure at 1438 1393 8 -branches -sn=1
+select figure at 1869 918 8 -branches -sn=1
+select figure at 1650 1340 8 -branches -sn=1
+select figure at 913 826 8 -branches -sn=1
+move iomarker at 960 832 to 944 832 R180 -keepConn -sn=1
+select figure at 1083 755 8 -branches -sn=1

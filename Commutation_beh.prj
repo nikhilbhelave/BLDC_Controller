@@ -1,0 +1,3 @@
+vhdl work "Commutation.vhf"
+vhdl work "Akash_Driver_v1.vhf"
+vhdl work "DEAD_TIME.vhf"

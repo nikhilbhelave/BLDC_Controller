@@ -1,0 +1,113 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf
+-ucf complete.ucf
+
+Design file:              Complete.ncd
+Physical constraint file: Complete.pcf
+Device,package,speed:     xc3s250e,cp132,-5 (PRODUCTION 1.27 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+E_1         |    0.178(R)|    0.963(R)|clk_BUFGP         |   0.000|
+E_2         |    0.485(R)|    0.714(R)|clk_BUFGP         |   0.000|
+H1          |    4.639(R)|   -1.171(R)|clk_BUFGP         |   0.000|
+H2          |    5.135(R)|   -1.295(R)|clk_BUFGP         |   0.000|
+H3          |    4.979(R)|   -1.444(R)|clk_BUFGP         |   0.000|
+Kd<0>       |    0.178(R)|    1.139(R)|clk_BUFGP         |   0.000|
+Kd<1>       |    0.116(R)|    1.189(R)|clk_BUFGP         |   0.000|
+Kd<2>       |    0.034(R)|    1.254(R)|clk_BUFGP         |   0.000|
+Kd<3>       |    1.144(R)|    0.367(R)|clk_BUFGP         |   0.000|
+Kp<0>       |    1.998(R)|   -0.317(R)|clk_BUFGP         |   0.000|
+Kp<1>       |    1.054(R)|    0.439(R)|clk_BUFGP         |   0.000|
+Kp<2>       |    0.670(R)|    0.746(R)|clk_BUFGP         |   0.000|
+Kp<3>       |    0.420(R)|    0.945(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+A           |   12.663(R)|clk_BUFGP         |   0.000|
+AA          |   12.615(R)|clk_BUFGP         |   0.000|
+B           |   13.641(R)|clk_BUFGP         |   0.000|
+BB          |   12.788(R)|clk_BUFGP         |   0.000|
+C           |   13.277(R)|clk_BUFGP         |   0.000|
+CC          |   13.660(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    8.147|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+H1             |A              |   12.920|
+H1             |AA             |   12.789|
+H1             |C              |   11.658|
+H1             |CC             |   11.276|
+H2             |A              |   11.701|
+H2             |AA             |   11.864|
+H2             |B              |   11.691|
+H2             |BB             |   11.288|
+H3             |B              |   11.682|
+H3             |BB             |   11.256|
+H3             |C              |   12.231|
+H3             |CC             |   11.743|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Mar 28 15:23:12 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 166 MB
+
+
+

@@ -1,0 +1,75 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Fuzzy_logic_based_tuner.v" in library work
+Compiling verilog file "encoder.v" in library work
+Module <Fuzzy_logic_based_tuner> compiled
+Module <encoder> compiled
+No errors in compilation
+Analysis of file <"main.prj"> succeeded.
+ 
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/clk_change.vhf" in Library work.
+Architecture behavioral of Entity cj4ce_mxilinx_clk_change is up to date.
+Architecture behavioral of Entity clk_change is up to date.
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_VNB.vhf" in Library work.
+Architecture behavioral of Entity ftrse_mxilinx_pwm_vnb is up to date.
+Architecture behavioral of Entity cb4re_mxilinx_pwm_vnb is up to date.
+Architecture behavioral of Entity pwm_v2_muser_pwm_vnb is up to date.
+Architecture behavioral of Entity comparator_muser_pwm_vnb is up to date.
+Architecture behavioral of Entity pwm_vnb is up to date.
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_V2.vhf" in Library work.
+Architecture behavioral of Entity pwm_v2 is up to date.
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_NB_2.vhf" in Library work.
+Architecture behavioral of Entity ftrse_mxilinx_pwm_nb_2 is up to date.
+Architecture behavioral of Entity cb4re_mxilinx_pwm_nb_2 is up to date.
+Architecture behavioral of Entity pwm_v2_muser_pwm_nb_2 is up to date.
+Architecture behavioral of Entity comparator_muser_pwm_nb_2 is up to date.
+Architecture behavioral of Entity pwm_nb_2 is up to date.
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM.vhf" in Library work.
+Architecture behavioral of Entity ftce_mxilinx_pwm is up to date.
+Architecture behavioral of Entity cb4ce_mxilinx_pwm is up to date.
+Architecture behavioral of Entity pwm is up to date.
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/MAIN.vhf" in Library work.
+Architecture behavioral of Entity commutation_muser_main is up to date.
+Architecture behavioral of Entity ftrse_mxilinx_main is up to date.
+Architecture behavioral of Entity cb4re_mxilinx_main is up to date.
+Architecture behavioral of Entity pwm_v2_muser_main is up to date.
+Architecture behavioral of Entity comparator_muser_main is up to date.
+Architecture behavioral of Entity pwm_vnb_muser_main is up to date.
+Architecture behavioral of Entity or6_mxilinx_main is up to date.
+Architecture behavioral of Entity m2_1_mxilinx_main is up to date.
+Architecture behavioral of Entity main is up to date.
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/DEADTIME.vhf" in Library work.
+Architecture behavioral of Entity deadtime is up to date.
+Compiling vhdl file "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/Comparator.vhf" in Library work.
+Architecture behavioral of Entity pwm_v2_muser_comparator is up to date.
+Architecture behavioral of Entity comparator is up to date.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.51 secs
+ 
+--> 
+
+Total memory usage is 286960 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

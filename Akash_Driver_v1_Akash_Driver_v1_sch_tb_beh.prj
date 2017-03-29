@@ -1,0 +1,5 @@
+vhdl work "PWM.vhf"
+vhdl work "Commutation.vhf"
+vhdl work "Akash_Driver_v1.vhf"
+verilog work "BLDC.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

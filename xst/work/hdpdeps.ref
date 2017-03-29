@@ -1,0 +1,635 @@
+V3 330
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/clk_change.vhf" 2016/10/01.22:38:52 P.28xd
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/Commutation.vhf" 2016/10/11.20:02:44 P.28xd
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/Comparator.vhf" 2016/08/27.21:59:56 P.28xd
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/DEADTIME.vhf" 2016/08/27.21:59:58 P.28xd
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/MAIN.vhf" 2016/09/27.16:36:46 P.28xd
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/MAIN_1.vhf" 2016/12/04.15:56:54 P.28xd
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/MAIN_2.vhf" 2016/12/08.18:55:13 P.28xd
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM.vhf" 2016/08/27.22:00:22 P.28xd
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_NB_2.vhf" 2016/10/01.22:38:52 P.28xd
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_V2.vhf" 2016/08/27.22:00:26 P.28xd
+FL "C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_VNB.vhf" 2016/10/01.15:58:54 P.28xd
+FL C:/Xilinx/BLDC_Controller/clk_change.vhf 2016/10/01.22:38:52 P.28xd
+EN work/CJ4CE_MXILINX_clk_change 1490694704 \
+      FL C:/Xilinx/BLDC_Controller/clk_change.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/CJ4CE_MXILINX_clk_change/BEHAVIORAL 1490694705 \
+      FL C:/Xilinx/BLDC_Controller/clk_change.vhf \
+      EN work/CJ4CE_MXILINX_clk_change 1490694704 CP FDCE CP INV
+EN work/clk_change 1490694706 \
+      FL C:/Xilinx/BLDC_Controller/clk_change.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/clk_change/BEHAVIORAL 1490694707 \
+      FL C:/Xilinx/BLDC_Controller/clk_change.vhf EN work/clk_change 1490694706 \
+      CP CJ4CE_MXILINX_clk_change CP VCC CP GND
+FL C:/Xilinx/BLDC_Controller/Commutation.vhf 2016/12/16.01:12:18 P.28xd
+EN work/Commutation 1490694802 FL C:/Xilinx/BLDC_Controller/Commutation.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/Commutation/BEHAVIORAL 1490694803 \
+      FL C:/Xilinx/BLDC_Controller/Commutation.vhf EN work/Commutation 1490694802 \
+      CP INV CP OR2 CP AND2
+FL C:/Xilinx/BLDC_Controller/Comparator.vhf 2016/08/27.21:59:56 P.28xd
+EN work/PWM_V2_MUSER_Comparator 1490694756 \
+      FL C:/Xilinx/BLDC_Controller/Comparator.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/PWM_V2_MUSER_Comparator/BEHAVIORAL 1490694757 \
+      FL C:/Xilinx/BLDC_Controller/Comparator.vhf EN work/PWM_V2_MUSER_Comparator 1490694756 \
+      CP AND2 CP OR3
+EN work/Comparator 1490694758 \
+      FL C:/Xilinx/BLDC_Controller/Comparator.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Comparator/BEHAVIORAL 1490694759 \
+      FL C:/Xilinx/BLDC_Controller/Comparator.vhf EN work/Comparator 1490694758 \
+      CP PWM_V2_MUSER_Comparator CP GND
+FL C:/Xilinx/BLDC_Controller/Complete.vhf 2017/03/28.15:21:39 P.28xd
+EN work/Commutation_MUSER_Complete 1490694760 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Commutation_MUSER_Complete/BEHAVIORAL 1490694761 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf \
+      EN work/Commutation_MUSER_Complete 1490694760 CP INV CP OR2 CP AND2
+EN work/MAIN_1_MUSER_Complete 1490694762 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/MAIN_1_MUSER_Complete/BEHAVIORAL 1490694763 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf EN work/MAIN_1_MUSER_Complete 1490694762 \
+      CP Commutation_MUSER_Complete CP MUXF8 CP GND CP VCC CP INV CP pwm_42 CP OR3 \
+      CP OR2 CP pwm_4 CP PID
+EN work/FD9CE_MUSER_Complete 1490694764 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/FD9CE_MUSER_Complete/BEHAVIORAL 1490694765 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf EN work/FD9CE_MUSER_Complete 1490694764 \
+      CP FDCE
+EN work/Incrementer_Decrementer_MUSER_Complete 1490694766 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Incrementer_Decrementer_MUSER_Complete/BEHAVIORAL 1490694767 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf \
+      EN work/Incrementer_Decrementer_MUSER_Complete 1490694766 CP XOR2 CP INV \
+      CP AND2
+EN work/Flip_flip9_MUSER_Complete 1490694768 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Flip_flip9_MUSER_Complete/BEHAVIORAL 1490694769 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf EN work/Flip_flip9_MUSER_Complete 1490694768 \
+      CP FDCE
+EN work/Couter_9CE_MUSER_Complete 1490694770 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Couter_9CE_MUSER_Complete/BEHAVIORAL 1490694771 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf EN work/Couter_9CE_MUSER_Complete 1490694770 \
+      CP Flip_flip9_MUSER_Complete CP Incrementer_Decrementer_MUSER_Complete
+EN work/ETC_SYNCRONOUS_MUSER_Complete 1490694772 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/ETC_SYNCRONOUS_MUSER_Complete/BEHAVIORAL 1490694773 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf \
+      EN work/ETC_SYNCRONOUS_MUSER_Complete 1490694772 CP FDR CP GND \
+      CP Couter_9CE_MUSER_Complete CP AND2 CP INV CP FD9CE_MUSER_Complete CP VCC
+EN work/FJKC_MXILINX_Complete 1490694774 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/FJKC_MXILINX_Complete/BEHAVIORAL 1490694775 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf EN work/FJKC_MXILINX_Complete 1490694774 \
+      CP FDC CP AND3B2 CP AND3B1 CP OR3 CP AND2B1
+EN work/Digital_Filter_MUSER_Complete 1490694776 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Digital_Filter_MUSER_Complete/BEHAVIORAL 1490694777 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf \
+      EN work/Digital_Filter_MUSER_Complete 1490694776 CP FD CP INV CP AND4 \
+      CP FJKC_MXILINX_Complete CP GND
+EN work/Main_Module_MUSER_Complete 1490694778 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Main_Module_MUSER_Complete/BEHAVIORAL 1490694779 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf \
+      EN work/Main_Module_MUSER_Complete 1490694778 \
+      CP Digital_Filter_MUSER_Complete CP ETC_SYNCRONOUS_MUSER_Complete \
+      CP CLOCK_32
+EN work/Complete 1490694780 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Complete/BEHAVIORAL 1490694781 \
+      FL C:/Xilinx/BLDC_Controller/Complete.vhf EN work/Complete 1490694780 \
+      CP Main_Module_MUSER_Complete CP MAIN_1_MUSER_Complete
+FL C:/Xilinx/BLDC_Controller/Couter_9CE.vhf 2017/03/09.23:46:49 P.28xd
+EN work/Incrementer_Decrementer_MUSER_Couter_9CE 1490694818 \
+      FL C:/Xilinx/BLDC_Controller/Couter_9CE.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Incrementer_Decrementer_MUSER_Couter_9CE/BEHAVIORAL 1490694819 \
+      FL C:/Xilinx/BLDC_Controller/Couter_9CE.vhf \
+      EN work/Incrementer_Decrementer_MUSER_Couter_9CE 1490694818 CP XOR2 CP INV \
+      CP AND2
+EN work/Flip_flip9_MUSER_Couter_9CE 1490694820 \
+      FL C:/Xilinx/BLDC_Controller/Couter_9CE.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Flip_flip9_MUSER_Couter_9CE/BEHAVIORAL 1490694821 \
+      FL C:/Xilinx/BLDC_Controller/Couter_9CE.vhf \
+      EN work/Flip_flip9_MUSER_Couter_9CE 1490694820 CP FDCE
+EN work/Couter_9CE 1490694822 \
+      FL C:/Xilinx/BLDC_Controller/Couter_9CE.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Couter_9CE/BEHAVIORAL 1490694823 \
+      FL C:/Xilinx/BLDC_Controller/Couter_9CE.vhf EN work/Couter_9CE 1490694822 \
+      CP Flip_flip9_MUSER_Couter_9CE CP Incrementer_Decrementer_MUSER_Couter_9CE
+FL C:/Xilinx/BLDC_Controller/DEADTIME.vhf 2016/08/27.21:59:58 P.28xd
+EN work/DEADTIME 1490694754 FL C:/Xilinx/BLDC_Controller/DEADTIME.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/DEADTIME/BEHAVIORAL 1490694755 \
+      FL C:/Xilinx/BLDC_Controller/DEADTIME.vhf EN work/DEADTIME 1490694754 \
+      CP AND2 CP INV
+FL C:/Xilinx/BLDC_Controller/Digital_Filter.vhf 2017/01/08.18:30:29 P.28xd
+EN work/FJKC_MXILINX_Digital_Filter 1490694804 \
+      FL C:/Xilinx/BLDC_Controller/Digital_Filter.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/FJKC_MXILINX_Digital_Filter/BEHAVIORAL 1490694805 \
+      FL C:/Xilinx/BLDC_Controller/Digital_Filter.vhf \
+      EN work/FJKC_MXILINX_Digital_Filter 1490694804 CP FDC CP AND3B2 CP AND3B1 \
+      CP OR3 CP AND2B1
+EN work/Digital_Filter 1490694806 \
+      FL C:/Xilinx/BLDC_Controller/Digital_Filter.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Digital_Filter/BEHAVIORAL 1490694807 \
+      FL C:/Xilinx/BLDC_Controller/Digital_Filter.vhf EN work/Digital_Filter 1490694806 \
+      CP FD CP INV CP AND4 CP FJKC_MXILINX_Digital_Filter CP GND
+FL C:/Xilinx/BLDC_Controller/D_error.vhf 2017/01/10.17:06:55 P.28xd
+EN work/Flip_flip9_MUSER_D_error 1488989303 \
+      FL C:/Xilinx/BLDC_Controller/D_error.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Flip_flip9_MUSER_D_error/BEHAVIORAL 1488989304 \
+      FL C:/Xilinx/BLDC_Controller/D_error.vhf EN work/Flip_flip9_MUSER_D_error 1488989303 \
+      CP FDCE
+EN work/D_error 1488989305 FL C:/Xilinx/BLDC_Controller/D_error.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/D_error/BEHAVIORAL 1488989306 \
+      FL C:/Xilinx/BLDC_Controller/D_error.vhf EN work/D_error 1488989305 \
+      CP Flip_flip9_MUSER_D_error CP GND CP VCC
+FL C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf 2017/03/10.23:23:03 P.28xd
+EN work/FD9CE_MUSER_ETC_SYNCRONOUS 1490694808 \
+      FL C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/FD9CE_MUSER_ETC_SYNCRONOUS/BEHAVIORAL 1490694809 \
+      FL C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf \
+      EN work/FD9CE_MUSER_ETC_SYNCRONOUS 1490694808 CP FDCE
+EN work/Incrementer_Decrementer_MUSER_ETC_SYNCRONOUS 1490694810 \
+      FL C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Incrementer_Decrementer_MUSER_ETC_SYNCRONOUS/BEHAVIORAL 1490694811 \
+      FL C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf \
+      EN work/Incrementer_Decrementer_MUSER_ETC_SYNCRONOUS 1490694810 CP XOR2 \
+      CP INV CP AND2
+EN work/Flip_flip9_MUSER_ETC_SYNCRONOUS 1490694812 \
+      FL C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Flip_flip9_MUSER_ETC_SYNCRONOUS/BEHAVIORAL 1490694813 \
+      FL C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf \
+      EN work/Flip_flip9_MUSER_ETC_SYNCRONOUS 1490694812 CP FDCE
+EN work/Couter_9CE_MUSER_ETC_SYNCRONOUS 1490694814 \
+      FL C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Couter_9CE_MUSER_ETC_SYNCRONOUS/BEHAVIORAL 1490694815 \
+      FL C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf \
+      EN work/Couter_9CE_MUSER_ETC_SYNCRONOUS 1490694814 \
+      CP Flip_flip9_MUSER_ETC_SYNCRONOUS \
+      CP Incrementer_Decrementer_MUSER_ETC_SYNCRONOUS
+EN work/ETC_SYNCRONOUS 1490694816 \
+      FL C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/ETC_SYNCRONOUS/BEHAVIORAL 1490694817 \
+      FL C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf EN work/ETC_SYNCRONOUS 1490694816 \
+      CP FDR CP GND CP Couter_9CE_MUSER_ETC_SYNCRONOUS CP AND2 CP INV \
+      CP FD9CE_MUSER_ETC_SYNCRONOUS CP VCC
+FL C:/Xilinx/BLDC_Controller/FD9CE.vhf 2017/01/08.18:30:28 P.28xd
+EN work/FD9CE 1490694824 FL C:/Xilinx/BLDC_Controller/FD9CE.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/FD9CE/BEHAVIORAL 1490694825 \
+      FL C:/Xilinx/BLDC_Controller/FD9CE.vhf EN work/FD9CE 1490694824 CP FDCE
+FL C:/Xilinx/BLDC_Controller/Flip_flip9.vhf 2017/01/08.18:30:28 P.28xd
+EN work/Flip_flip9 1490694826 FL C:/Xilinx/BLDC_Controller/Flip_flip9.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/Flip_flip9/BEHAVIORAL 1490694827 \
+      FL C:/Xilinx/BLDC_Controller/Flip_flip9.vhf EN work/Flip_flip9 1490694826 \
+      CP FDCE
+FL C:/Xilinx/BLDC_Controller/Incrementer_Decrementer.vhf 2017/01/08.18:30:28 P.28xd
+EN work/Incrementer_Decrementer 1490694828 \
+      FL C:/Xilinx/BLDC_Controller/Incrementer_Decrementer.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/Incrementer_Decrementer/BEHAVIORAL 1490694829 \
+      FL C:/Xilinx/BLDC_Controller/Incrementer_Decrementer.vhf \
+      EN work/Incrementer_Decrementer 1490694828 CP XOR2 CP INV CP AND2
+FL C:/Xilinx/BLDC_Controller/MAIN.vhf 2016/09/27.16:36:46 P.28xd
+EN work/Commutation_MUSER_MAIN 1490694736 FL C:/Xilinx/BLDC_Controller/MAIN.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/Commutation_MUSER_MAIN/BEHAVIORAL 1490694737 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf EN work/Commutation_MUSER_MAIN 1490694736 \
+      CP INV CP OR2 CP AND2
+EN work/FTRSE_MXILINX_MAIN 1490694738 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/FTRSE_MXILINX_MAIN/BEHAVIORAL 1490694739 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf EN work/FTRSE_MXILINX_MAIN 1490694738 \
+      CP XOR2 CP FDRE CP OR2
+EN work/CB4RE_MXILINX_MAIN 1490694740 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/CB4RE_MXILINX_MAIN/BEHAVIORAL 1490694741 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf EN work/CB4RE_MXILINX_MAIN 1490694740 \
+      CP FTRSE_MXILINX_MAIN CP AND4 CP AND3 CP AND2 CP VCC CP GND
+EN work/PWM_V2_MUSER_MAIN 1490694742 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/PWM_V2_MUSER_MAIN/BEHAVIORAL 1490694743 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf EN work/PWM_V2_MUSER_MAIN 1490694742 \
+      CP AND2 CP OR3
+EN work/Comparator_MUSER_MAIN 1490694744 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Comparator_MUSER_MAIN/BEHAVIORAL 1490694745 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf EN work/Comparator_MUSER_MAIN 1490694744 \
+      CP PWM_V2_MUSER_MAIN CP GND
+EN work/PWM_VNB_MUSER_MAIN 1490694746 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/PWM_VNB_MUSER_MAIN/BEHAVIORAL 1490694747 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf EN work/PWM_VNB_MUSER_MAIN 1490694746 \
+      CP Comparator_MUSER_MAIN CP CB4RE_MXILINX_MAIN CP XOR2 CP VCC
+EN work/OR6_MXILINX_MAIN 1490694748 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/OR6_MXILINX_MAIN/BEHAVIORAL 1490694749 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf EN work/OR6_MXILINX_MAIN 1490694748 \
+      CP OR4 CP OR3 CP FMAP
+EN work/M2_1_MXILINX_MAIN 1490694750 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/M2_1_MXILINX_MAIN/BEHAVIORAL 1490694751 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf EN work/M2_1_MXILINX_MAIN 1490694750 \
+      CP AND2B1 CP OR2 CP AND2
+EN work/MAIN 1490694752 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/MAIN/BEHAVIORAL 1490694753 \
+      FL C:/Xilinx/BLDC_Controller/MAIN.vhf EN work/MAIN 1490694752 \
+      CP M2_1_MXILINX_MAIN CP OR6_MXILINX_MAIN CP PWM_VNB_MUSER_MAIN \
+      CP Commutation_MUSER_MAIN CP INV
+FL C:/Xilinx/BLDC_Controller/MAIN_1.vhf 2017/03/28.15:21:39 P.28xd
+EN work/Commutation_MUSER_MAIN_1 1490694782 \
+      FL C:/Xilinx/BLDC_Controller/MAIN_1.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Commutation_MUSER_MAIN_1/BEHAVIORAL 1490694783 \
+      FL C:/Xilinx/BLDC_Controller/MAIN_1.vhf EN work/Commutation_MUSER_MAIN_1 1490694782 \
+      CP INV CP OR2 CP AND2
+EN work/MAIN_1 1490694784 \
+      FL C:/Xilinx/BLDC_Controller/MAIN_1.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/MAIN_1/BEHAVIORAL 1490694785 \
+      FL C:/Xilinx/BLDC_Controller/MAIN_1.vhf EN work/MAIN_1 1490694784 \
+      CP Commutation_MUSER_MAIN_1 CP MUXF8 CP GND CP VCC CP INV CP pwm_42 CP OR3 CP OR2 \
+      CP pwm_4 CP PID
+FL C:/Xilinx/BLDC_Controller/MAIN_2.vhf 2016/12/14.00:59:41 P.28xd
+EN work/OR6_MXILINX_MAIN_2 1481657447 FL C:/Xilinx/BLDC_Controller/MAIN_2.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/OR6_MXILINX_MAIN_2/BEHAVIORAL 1481657448 \
+      FL C:/Xilinx/BLDC_Controller/MAIN_2.vhf EN work/OR6_MXILINX_MAIN_2 1481657447 \
+      CP OR4 CP OR3 CP FMAP
+EN work/Commutation_MUSER_MAIN_2 1481657449 \
+      FL C:/Xilinx/BLDC_Controller/MAIN_2.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Commutation_MUSER_MAIN_2/BEHAVIORAL 1481657450 \
+      FL C:/Xilinx/BLDC_Controller/MAIN_2.vhf EN work/Commutation_MUSER_MAIN_2 1481657449 \
+      CP INV CP OR2 CP AND2
+EN work/MAIN_2 1481657451 \
+      FL C:/Xilinx/BLDC_Controller/MAIN_2.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/MAIN_2/BEHAVIORAL 1481657452 \
+      FL C:/Xilinx/BLDC_Controller/MAIN_2.vhf EN work/MAIN_2 1481657451 \
+      CP Commutation_MUSER_MAIN_2 CP MUXF8 CP GND CP VCC CP OR6_MXILINX_MAIN_2 \
+      CP MUXF8_L CP bit4_pwm
+FL C:/Xilinx/BLDC_Controller/main_3.vhf 2016/12/14.15:46:08 P.28xd
+EN work/Commutation_MUSER_main_3 1481710632 \
+      FL C:/Xilinx/BLDC_Controller/main_3.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Commutation_MUSER_main_3/BEHAVIORAL 1481710633 \
+      FL C:/Xilinx/BLDC_Controller/main_3.vhf EN work/Commutation_MUSER_main_3 1481710632 \
+      CP INV CP OR2 CP AND2
+EN work/main_3 1481710634 \
+      FL C:/Xilinx/BLDC_Controller/main_3.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/main_3/BEHAVIORAL 1481710635 \
+      FL C:/Xilinx/BLDC_Controller/main_3.vhf EN work/main_3 1481710634 \
+      CP Commutation_MUSER_main_3 CP MUXF8 CP GND CP VCC CP INV CP OR3 CP OR2 CP pwm_4 \
+      CP pwm_42
+FL C:/Xilinx/BLDC_Controller/Main_Module.vhf 2017/03/28.15:21:39 P.28xd
+EN work/FD9CE_MUSER_Main_Module 1490694786 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/FD9CE_MUSER_Main_Module/BEHAVIORAL 1490694787 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf \
+      EN work/FD9CE_MUSER_Main_Module 1490694786 CP FDCE
+EN work/Incrementer_Decrementer_MUSER_Main_Module 1490694788 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Incrementer_Decrementer_MUSER_Main_Module/BEHAVIORAL 1490694789 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf \
+      EN work/Incrementer_Decrementer_MUSER_Main_Module 1490694788 CP XOR2 CP INV \
+      CP AND2
+EN work/Flip_flip9_MUSER_Main_Module 1490694790 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Flip_flip9_MUSER_Main_Module/BEHAVIORAL 1490694791 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf \
+      EN work/Flip_flip9_MUSER_Main_Module 1490694790 CP FDCE
+EN work/Couter_9CE_MUSER_Main_Module 1490694792 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Couter_9CE_MUSER_Main_Module/BEHAVIORAL 1490694793 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf \
+      EN work/Couter_9CE_MUSER_Main_Module 1490694792 \
+      CP Flip_flip9_MUSER_Main_Module \
+      CP Incrementer_Decrementer_MUSER_Main_Module
+EN work/ETC_SYNCRONOUS_MUSER_Main_Module 1490694794 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/ETC_SYNCRONOUS_MUSER_Main_Module/BEHAVIORAL 1490694795 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf \
+      EN work/ETC_SYNCRONOUS_MUSER_Main_Module 1490694794 CP FDR CP GND \
+      CP Couter_9CE_MUSER_Main_Module CP AND2 CP INV CP FD9CE_MUSER_Main_Module \
+      CP VCC
+EN work/FJKC_MXILINX_Main_Module 1490694796 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/FJKC_MXILINX_Main_Module/BEHAVIORAL 1490694797 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf \
+      EN work/FJKC_MXILINX_Main_Module 1490694796 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/Digital_Filter_MUSER_Main_Module 1490694798 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Digital_Filter_MUSER_Main_Module/BEHAVIORAL 1490694799 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf \
+      EN work/Digital_Filter_MUSER_Main_Module 1490694798 CP FD CP INV CP AND4 \
+      CP FJKC_MXILINX_Main_Module CP GND
+EN work/Main_Module 1490694800 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Main_Module/BEHAVIORAL 1490694801 \
+      FL C:/Xilinx/BLDC_Controller/Main_Module.vhf EN work/Main_Module 1490694800 \
+      CP Digital_Filter_MUSER_Main_Module CP ETC_SYNCRONOUS_MUSER_Main_Module \
+      CP CLOCK_32
+FL C:/Xilinx/BLDC_Controller/Multiplier.vhf 2017/01/11.01:26:07 P.28xd
+EN work/Multiplier_8_MUSER_Multiplier 1488989309 \
+      FL C:/Xilinx/BLDC_Controller/Multiplier.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_8_MUSER_Multiplier/BEHAVIORAL 1488989310 \
+      FL C:/Xilinx/BLDC_Controller/Multiplier.vhf \
+      EN work/Multiplier_8_MUSER_Multiplier 1488989309 CP MUXCY CP GND CP BUF
+EN work/Multiplier_2_MUSER_Multiplier 1488989311 \
+      FL C:/Xilinx/BLDC_Controller/Multiplier.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_2_MUSER_Multiplier/BEHAVIORAL 1488989312 \
+      FL C:/Xilinx/BLDC_Controller/Multiplier.vhf \
+      EN work/Multiplier_2_MUSER_Multiplier 1488989311 CP MUXCY CP GND CP BUF
+EN work/Multiplier_4_MUSER_Multiplier 1488989313 \
+      FL C:/Xilinx/BLDC_Controller/Multiplier.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_4_MUSER_Multiplier/BEHAVIORAL 1488989314 \
+      FL C:/Xilinx/BLDC_Controller/Multiplier.vhf \
+      EN work/Multiplier_4_MUSER_Multiplier 1488989313 CP MUXCY CP GND CP BUF
+EN work/Multiplier 1488989315 \
+      FL C:/Xilinx/BLDC_Controller/Multiplier.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier/BEHAVIORAL 1488989316 \
+      FL C:/Xilinx/BLDC_Controller/Multiplier.vhf EN work/Multiplier 1488989315 \
+      CP Multiplier_4_MUSER_Multiplier CP Multiplier_2_MUSER_Multiplier \
+      CP Multiplier_8_MUSER_Multiplier
+FL C:/Xilinx/BLDC_Controller/Multiplier_2.vhf 2017/01/11.01:26:04 P.28xd
+EN work/Multiplier_2 1488989319 FL C:/Xilinx/BLDC_Controller/Multiplier_2.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_2/BEHAVIORAL 1488989320 \
+      FL C:/Xilinx/BLDC_Controller/Multiplier_2.vhf EN work/Multiplier_2 1488989319 \
+      CP MUXCY CP GND CP BUF
+FL C:/Xilinx/BLDC_Controller/Multiplier_4.vhf 2017/01/11.01:26:07 P.28xd
+EN work/Multiplier_4 1488989321 FL C:/Xilinx/BLDC_Controller/Multiplier_4.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_4/BEHAVIORAL 1488989322 \
+      FL C:/Xilinx/BLDC_Controller/Multiplier_4.vhf EN work/Multiplier_4 1488989321 \
+      CP MUXCY CP GND CP BUF
+FL C:/Xilinx/BLDC_Controller/Multiplier_8.vhf 2017/01/11.19:56:16 P.28xd
+EN work/Multiplier_8 1488989323 FL C:/Xilinx/BLDC_Controller/Multiplier_8.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_8/BEHAVIORAL 1488989324 \
+      FL C:/Xilinx/BLDC_Controller/Multiplier_8.vhf EN work/Multiplier_8 1488989323 \
+      CP MUXCY CP GND CP BUF
+FL C:/Xilinx/BLDC_Controller/PID_Module.vhf 2017/01/11.16:13:04 P.28xd
+EN work/Multiplier_8_MUSER_PID_Module 1488989263 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_8_MUSER_PID_Module/BEHAVIORAL 1488989264 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf \
+      EN work/Multiplier_8_MUSER_PID_Module 1488989263 CP MUXCY CP GND CP BUF
+EN work/Multiplier_2_MUSER_PID_Module 1488989265 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_2_MUSER_PID_Module/BEHAVIORAL 1488989266 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf \
+      EN work/Multiplier_2_MUSER_PID_Module 1488989265 CP MUXCY CP GND CP BUF
+EN work/Multiplier_4_MUSER_PID_Module 1488989267 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_4_MUSER_PID_Module/BEHAVIORAL 1488989268 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf \
+      EN work/Multiplier_4_MUSER_PID_Module 1488989267 CP MUXCY CP GND CP BUF
+EN work/Multiplier_MUSER_PID_Module 1488989269 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_MUSER_PID_Module/BEHAVIORAL 1488989270 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf \
+      EN work/Multiplier_MUSER_PID_Module 1488989269 \
+      CP Multiplier_4_MUSER_PID_Module CP Multiplier_2_MUSER_PID_Module \
+      CP Multiplier_8_MUSER_PID_Module
+EN work/Flip_flip9_MUSER_PID_Module 1488989271 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Flip_flip9_MUSER_PID_Module/BEHAVIORAL 1488989272 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf \
+      EN work/Flip_flip9_MUSER_PID_Module 1488989271 CP FDCE
+EN work/D_error_MUSER_PID_Module 1488989273 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/D_error_MUSER_PID_Module/BEHAVIORAL 1488989274 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf \
+      EN work/D_error_MUSER_PID_Module 1488989273 CP Flip_flip9_MUSER_PID_Module \
+      CP GND CP VCC
+EN work/TotError_MUSER_PID_Module 1488989275 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/TotError_MUSER_PID_Module/BEHAVIORAL 1488989276 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf \
+      EN work/TotError_MUSER_PID_Module 1488989275 CP D_error_MUSER_PID_Module \
+      CP Multiplier_MUSER_PID_Module CP sub9
+EN work/ADD16_MXILINX_PID_Module 1488989277 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/ADD16_MXILINX_PID_Module/BEHAVIORAL 1488989278 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf \
+      EN work/ADD16_MXILINX_PID_Module 1488989277 CP FMAP CP MUXCY_L CP MUXCY \
+      CP XORCY CP MUXCY_D CP XOR2
+EN work/PID_Module 1488989279 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/PID_Module/BEHAVIORAL 1488989280 \
+      FL C:/Xilinx/BLDC_Controller/PID_Module.vhf EN work/PID_Module 1488989279 \
+      CP ADD16_MXILINX_PID_Module CP GND CP TotError_MUSER_PID_Module
+FL C:/Xilinx/BLDC_Controller/PWM.vhf 2016/08/27.22:00:22 P.28xd
+EN work/FTCE_MXILINX_PWM 1490694730 FL C:/Xilinx/BLDC_Controller/PWM.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/FTCE_MXILINX_PWM/BEHAVIORAL 1490694731 \
+      FL C:/Xilinx/BLDC_Controller/PWM.vhf EN work/FTCE_MXILINX_PWM 1490694730 \
+      CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_PWM 1490694732 \
+      FL C:/Xilinx/BLDC_Controller/PWM.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/CB4CE_MXILINX_PWM/BEHAVIORAL 1490694733 \
+      FL C:/Xilinx/BLDC_Controller/PWM.vhf EN work/CB4CE_MXILINX_PWM 1490694732 \
+      CP FTCE_MXILINX_PWM CP AND4 CP AND3 CP AND2 CP VCC
+EN work/PWM 1490694734 \
+      FL C:/Xilinx/BLDC_Controller/PWM.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/PWM/BEHAVIORAL 1490694735 \
+      FL C:/Xilinx/BLDC_Controller/PWM.vhf EN work/PWM 1490694734 \
+      CP CB4CE_MXILINX_PWM CP XNOR2 CP AND4 CP LDC CP NOR4 CP GND
+FL C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf 2016/10/01.22:38:52 P.28xd
+EN work/FTRSE_MXILINX_PWM_NB_2 1490694720 \
+      FL C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/FTRSE_MXILINX_PWM_NB_2/BEHAVIORAL 1490694721 \
+      FL C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf EN work/FTRSE_MXILINX_PWM_NB_2 1490694720 \
+      CP XOR2 CP FDRE CP OR2
+EN work/CB4RE_MXILINX_PWM_NB_2 1490694722 \
+      FL C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/CB4RE_MXILINX_PWM_NB_2/BEHAVIORAL 1490694723 \
+      FL C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf EN work/CB4RE_MXILINX_PWM_NB_2 1490694722 \
+      CP FTRSE_MXILINX_PWM_NB_2 CP AND4 CP AND3 CP AND2 CP VCC CP GND
+EN work/PWM_V2_MUSER_PWM_NB_2 1490694724 \
+      FL C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/PWM_V2_MUSER_PWM_NB_2/BEHAVIORAL 1490694725 \
+      FL C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf EN work/PWM_V2_MUSER_PWM_NB_2 1490694724 \
+      CP AND2 CP OR3
+EN work/Comparator_MUSER_PWM_NB_2 1490694726 \
+      FL C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Comparator_MUSER_PWM_NB_2/BEHAVIORAL 1490694727 \
+      FL C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf EN work/Comparator_MUSER_PWM_NB_2 1490694726 \
+      CP PWM_V2_MUSER_PWM_NB_2 CP GND
+EN work/PWM_NB_2 1490694728 \
+      FL C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/PWM_NB_2/BEHAVIORAL 1490694729 \
+      FL C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf EN work/PWM_NB_2 1490694728 \
+      CP Comparator_MUSER_PWM_NB_2 CP CB4RE_MXILINX_PWM_NB_2 CP XOR2 CP VCC CP GND
+FL C:/Xilinx/BLDC_Controller/PWM_V2.vhf 2016/08/27.22:00:26 P.28xd
+EN work/PWM_V2 1490694718 FL C:/Xilinx/BLDC_Controller/PWM_V2.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/PWM_V2/BEHAVIORAL 1490694719 \
+      FL C:/Xilinx/BLDC_Controller/PWM_V2.vhf EN work/PWM_V2 1490694718 CP AND2 \
+      CP OR3
+FL C:/Xilinx/BLDC_Controller/PWM_VNB.vhf 2016/10/01.15:58:54 P.28xd
+EN work/FTRSE_MXILINX_PWM_VNB 1490694708 FL C:/Xilinx/BLDC_Controller/PWM_VNB.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/FTRSE_MXILINX_PWM_VNB/BEHAVIORAL 1490694709 \
+      FL C:/Xilinx/BLDC_Controller/PWM_VNB.vhf EN work/FTRSE_MXILINX_PWM_VNB 1490694708 \
+      CP XOR2 CP FDRE CP OR2
+EN work/CB4RE_MXILINX_PWM_VNB 1490694710 \
+      FL C:/Xilinx/BLDC_Controller/PWM_VNB.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/CB4RE_MXILINX_PWM_VNB/BEHAVIORAL 1490694711 \
+      FL C:/Xilinx/BLDC_Controller/PWM_VNB.vhf EN work/CB4RE_MXILINX_PWM_VNB 1490694710 \
+      CP FTRSE_MXILINX_PWM_VNB CP AND4 CP AND3 CP AND2 CP VCC CP GND
+EN work/PWM_V2_MUSER_PWM_VNB 1490694712 \
+      FL C:/Xilinx/BLDC_Controller/PWM_VNB.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/PWM_V2_MUSER_PWM_VNB/BEHAVIORAL 1490694713 \
+      FL C:/Xilinx/BLDC_Controller/PWM_VNB.vhf EN work/PWM_V2_MUSER_PWM_VNB 1490694712 \
+      CP AND2 CP OR3
+EN work/Comparator_MUSER_PWM_VNB 1490694714 \
+      FL C:/Xilinx/BLDC_Controller/PWM_VNB.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Comparator_MUSER_PWM_VNB/BEHAVIORAL 1490694715 \
+      FL C:/Xilinx/BLDC_Controller/PWM_VNB.vhf EN work/Comparator_MUSER_PWM_VNB 1490694714 \
+      CP PWM_V2_MUSER_PWM_VNB CP GND
+EN work/PWM_VNB 1490694716 \
+      FL C:/Xilinx/BLDC_Controller/PWM_VNB.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/PWM_VNB/BEHAVIORAL 1490694717 \
+      FL C:/Xilinx/BLDC_Controller/PWM_VNB.vhf EN work/PWM_VNB 1490694716 \
+      CP Comparator_MUSER_PWM_VNB CP CB4RE_MXILINX_PWM_VNB CP AND3
+FL C:/Xilinx/BLDC_Controller/sub9bit.vhf 2017/01/11.02:00:41 P.28xd
+EN work/sub9bit 1484080459 FL C:/Xilinx/BLDC_Controller/sub9bit.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/sub9bit/BEHAVIORAL 1484080460 \
+      FL C:/Xilinx/BLDC_Controller/sub9bit.vhf EN work/sub9bit 1484080459 CP XOR3 \
+      CP MUXCY_L CP XORCY CP INV CP XOR2 CP MUXCY CP MUXCY_D
+FL C:/Xilinx/BLDC_Controller/TotError.vhf 2017/01/11.16:13:06 P.28xd
+EN work/Multiplier_8_MUSER_TotError 1488989289 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_8_MUSER_TotError/BEHAVIORAL 1488989290 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf \
+      EN work/Multiplier_8_MUSER_TotError 1488989289 CP MUXCY CP GND CP BUF
+EN work/Multiplier_2_MUSER_TotError 1488989291 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_2_MUSER_TotError/BEHAVIORAL 1488989292 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf \
+      EN work/Multiplier_2_MUSER_TotError 1488989291 CP MUXCY CP GND CP BUF
+EN work/Multiplier_4_MUSER_TotError 1488989293 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_4_MUSER_TotError/BEHAVIORAL 1488989294 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf \
+      EN work/Multiplier_4_MUSER_TotError 1488989293 CP MUXCY CP GND CP BUF
+EN work/Multiplier_MUSER_TotError 1488989295 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Multiplier_MUSER_TotError/BEHAVIORAL 1488989296 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf EN work/Multiplier_MUSER_TotError 1488989295 \
+      CP Multiplier_4_MUSER_TotError CP Multiplier_2_MUSER_TotError \
+      CP Multiplier_8_MUSER_TotError
+EN work/Flip_flip9_MUSER_TotError 1488989297 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/Flip_flip9_MUSER_TotError/BEHAVIORAL 1488989298 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf EN work/Flip_flip9_MUSER_TotError 1488989297 \
+      CP FDCE
+EN work/D_error_MUSER_TotError 1488989299 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/D_error_MUSER_TotError/BEHAVIORAL 1488989300 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf EN work/D_error_MUSER_TotError 1488989299 \
+      CP Flip_flip9_MUSER_TotError CP GND CP VCC
+EN work/TotError 1488989301 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/TotError/BEHAVIORAL 1488989302 \
+      FL C:/Xilinx/BLDC_Controller/TotError.vhf EN work/TotError 1488989301 \
+      CP D_error_MUSER_TotError CP Multiplier_MUSER_TotError CP sub9

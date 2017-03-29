@@ -1,0 +1,3 @@
+verilog isim_temp "bit4_pwm.v"
+verilog isim_temp "Main_sim0.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/Fuzzy_logic_based_tuner.v} -lang verilog -prj Akash_Driver_v1 -o Fuzzy_logic_based_tuner.spl -module Fuzzy_logic_based_tuner -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Fuzzy_logic_based_tuner.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/Fuzzy_logic_based_tuner.sym} 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/Fuzzy_logic_based_tuner.v -lang verilog -prj Akash_Driver_v1 -o Fuzzy_logic_based_tuner.spl -module Fuzzy_logic_based_tuner -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w Fuzzy_logic_based_tuner.spl C:/Xilinx/BLDC_Controller/Fuzzy_logic_based_tuner.sym 

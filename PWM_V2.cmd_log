@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym PWM_V2 {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_V2.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_V2.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_V2_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_V2.sch} 

@@ -1,0 +1,8 @@
+verilog work "pwm_3.v"
+verilog work "pwm_3_sim.v"
+vhdl work "Akash_Driver_v1.vhf"
+vhdl work "DEAD_TIME.vhf"
+vhdl work "MAIN.vhf"
+vhdl work "PWM_VNB.vhf"
+vhdl work "main_sub.vhf"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

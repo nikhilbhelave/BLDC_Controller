@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/FPGA_Xilinx/Complete_Fira_1.0/Multiplier_IPcore.xst" -ofn "E:/FPGA_Xilinx/Complete_Fira_1.0/Multiplier_IPcore.syr" 

@@ -1,0 +1,10 @@
+sch2hdl -intstyle ise -family spartan3e -verilog TotError_drc.vf -w C:/Xilinx/FPGA/Complete_Fira_1.0/TotError.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym TotError C:/Xilinx/FPGA/Complete_Fira_1.0/TotError.sch C:/Xilinx/FPGA/Complete_Fira_1.0/TotError.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TotError_drc.vhf -w C:/Xilinx/BLDC_Controller/TotError.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym TotError C:/Xilinx/BLDC_Controller/TotError.sch C:/Xilinx/BLDC_Controller/TotError.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TotError_drc.vhf -w C:/Xilinx/BLDC_Controller/TotError.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym TotError C:/Xilinx/BLDC_Controller/TotError.sch C:/Xilinx/BLDC_Controller/TotError.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TotError_drc.vhf -w C:/Xilinx/BLDC_Controller/TotError.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym TotError C:/Xilinx/BLDC_Controller/TotError.sch C:/Xilinx/BLDC_Controller/TotError.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl TotError_drc.vhf -w C:/Xilinx/BLDC_Controller/TotError.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym TotError C:/Xilinx/BLDC_Controller/TotError.sch C:/Xilinx/BLDC_Controller/TotError.sym 

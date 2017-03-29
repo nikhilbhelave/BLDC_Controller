@@ -1,0 +1,35 @@
+vhdtdtfi -lang verilog -prj Akash_Driver_v1 -o C:/Xilinx/BLDC_Controller/pwm_3.vhi -lib work C:/Xilinx/BLDC_Controller//pwm_3.v -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/pwm_3.v -lang verilog -prj Akash_Driver_v1 -o pwm_3.spl -module pwm_3 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w pwm_3.spl C:/Xilinx/BLDC_Controller/pwm_3.sym 

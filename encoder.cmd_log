@@ -1,0 +1,19 @@
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.v} -lang verilog -prj Akash_Driver_v1 -o encoder.spl -module encoder -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w encoder.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.v} -lang verilog -prj Akash_Driver_v1 -o encoder.spl -module encoder -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w encoder.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.v} -lang verilog -prj Akash_Driver_v1 -o encoder.spl -module encoder -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w encoder.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.v} -lang verilog -prj Akash_Driver_v1 -o encoder.spl -module encoder -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w encoder.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.v} -lang verilog -prj Akash_Driver_v1 -o encoder.spl -module encoder -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w encoder.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.v} -lang verilog -prj Akash_Driver_v1 -o encoder.spl -module encoder -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w encoder.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.v} -lang verilog -prj Akash_Driver_v1 -o encoder.spl -module encoder -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w encoder.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/encoder.sym} 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/encoder.v -lang verilog -prj Akash_Driver_v1 -o encoder.spl -module encoder -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w encoder.spl C:/Xilinx/BLDC_Controller/encoder.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/encoder.v -lang verilog -prj Akash_Driver_v1 -o encoder.spl -module encoder -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w encoder.spl C:/Xilinx/BLDC_Controller/encoder.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/encoder.xst" -ofn "C:/Xilinx/BLDC_Controller/encoder.syr" 

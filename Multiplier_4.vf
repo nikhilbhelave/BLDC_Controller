@@ -1,0 +1,84 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Multiplier_4.vf
+// /___/   /\     Timestamp : 05/12/2015 12:21:32
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog E:/FPGA_Xilinx/Complete_Fira_1.0/Multiplier_4.vf -w E:/FPGA_Xilinx/Multiplier/Multiplier_4.sch
+//Design Name: Multiplier_4
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Multiplier_4(Inp0, 
+                    Inp1, 
+                    S_0, 
+                    Output);
+
+    input [9:0] Inp0;
+    input [9:0] Inp1;
+    input S_0;
+   output [11:0] Output;
+   
+   wire XLXN_1;
+   wire XLXN_30;
+   
+   MUXCY  XLXI_18 (.CI(XLXN_30), 
+                  .DI(Inp0[1]), 
+                  .S(S_0), 
+                  .O(Output[1]));
+   MUXCY  XLXI_19 (.CI(XLXN_1), 
+                  .DI(Inp0[0]), 
+                  .S(S_0), 
+                  .O(Output[0]));
+   MUXCY  XLXI_20 (.CI(Inp1[0]), 
+                  .DI(Inp0[2]), 
+                  .S(S_0), 
+                  .O(Output[2]));
+   MUXCY  XLXI_21 (.CI(Inp1[1]), 
+                  .DI(Inp0[3]), 
+                  .S(S_0), 
+                  .O(Output[3]));
+   MUXCY  XLXI_24 (.CI(Inp1[2]), 
+                  .DI(Inp0[4]), 
+                  .S(S_0), 
+                  .O(Output[4]));
+   MUXCY  XLXI_25 (.CI(Inp1[3]), 
+                  .DI(Inp0[5]), 
+                  .S(S_0), 
+                  .O(Output[5]));
+   MUXCY  XLXI_26 (.CI(Inp1[4]), 
+                  .DI(Inp0[6]), 
+                  .S(S_0), 
+                  .O(Output[6]));
+   MUXCY  XLXI_27 (.CI(Inp1[5]), 
+                  .DI(Inp0[7]), 
+                  .S(S_0), 
+                  .O(Output[7]));
+   MUXCY  XLXI_28 (.CI(Inp1[6]), 
+                  .DI(Inp0[8]), 
+                  .S(S_0), 
+                  .O(Output[8]));
+   GND  XLXI_29 (.G(XLXN_1));
+   GND  XLXI_30 (.G(XLXN_30));
+   MUXCY  XLXI_31 (.CI(Inp1[7]), 
+                  .DI(Inp0[9]), 
+                  .S(S_0), 
+                  .O(Output[9]));
+   BUF  XLXI_39 (.I(Inp1[9]), 
+                .O(Output[11]));
+   MUXCY  XLXI_41 (.CI(Inp1[8]), 
+                  .DI(Inp1[9]), 
+                  .S(S_0), 
+                  .O(Output[10]));
+endmodule

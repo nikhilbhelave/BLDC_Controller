@@ -1,0 +1,10 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Commutation_drc.vhf -w {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Commutation.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Commutation {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Commutation.sch} {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/Commutation.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Commutation_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/Commutation.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Commutation {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/Commutation.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/Commutation.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Commutation_drc.vhf -w C:/Xilinx/BLDC_Controller/Commutation.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Commutation C:/Xilinx/BLDC_Controller/Commutation.sch C:/Xilinx/BLDC_Controller/Commutation.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym Commutation C:/Xilinx/BLDC_Controller/Commutation.sch C:/Xilinx/BLDC_Controller/Commutation.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Commutation_drc.vhf -w C:/Xilinx/BLDC_Controller/Commutation.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Commutation_drc.vhf -w C:/Xilinx/BLDC_Controller/Commutation.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Commutation C:/Xilinx/BLDC_Controller/Commutation.sch C:/Xilinx/BLDC_Controller/Commutation.sym 

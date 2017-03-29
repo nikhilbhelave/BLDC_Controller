@@ -1,0 +1,7 @@
+MODULE Multiplier
+	SUBMODULE Multiplier_2
+		INSTANCE XLXI_8
+	SUBMODULE Multiplier_4
+		INSTANCE XLXI_7
+	SUBMODULE Multiplier_8
+		INSTANCE XLXI_9

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/CLK_Divider.v} -lang verilog -prj Akash_Driver_v1 -o CLK_Divider.spl -module CLK_Divider -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w CLK_Divider.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/CLK_Divider.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/CLK_Divider.v} -lang verilog -prj Akash_Driver_v1 -o CLK_Divider.spl -module CLK_Divider -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w CLK_Divider.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/CLK_Divider.sym} 

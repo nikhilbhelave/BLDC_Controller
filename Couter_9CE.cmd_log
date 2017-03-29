@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Couter_9CE_drc.vhf -w C:/Xilinx/BLDC_Controller/Couter_9CE.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Couter_9CE C:/Xilinx/BLDC_Controller/Couter_9CE.sch C:/Xilinx/BLDC_Controller/Couter_9CE.sym 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\BLDC_Controller\MAIN_1.ncd
+OUTFILE=C:\Xilinx\BLDC_Controller\MAIN_1.bit
+FAMILY=Spartan3E
+PART=xc3s250e-5cp132
+WORKINGDIR=C:\Xilinx\BLDC_Controller
+LICENSE=WebPack
+USER_INFO=__0_0_0

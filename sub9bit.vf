@@ -1,0 +1,199 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : sub9bit.vf
+// /___/   /\     Timestamp : 05/31/2015 01:55:19
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog E:/FPGA_Xilinx/Complete_Fira_1.0/sub9bit.vf -w E:/FPGA_Xilinx/Error/sub9bit.sch
+//Design Name: sub9bit
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module sub9bit(A, 
+               ADD, 
+               B, 
+               CI, 
+               CO, 
+               OFL, 
+               S);
+
+    input [8:0] A;
+    input ADD;
+    input [8:0] B;
+    input CI;
+   output CO;
+   output OFL;
+   output [8:0] S;
+   
+   wire C0;
+   wire C1;
+   wire C2;
+   wire C3;
+   wire C4;
+   wire C5;
+   wire C6;
+   wire C6O;
+   wire I0;
+   wire I1;
+   wire I2;
+   wire I3;
+   wire I4;
+   wire I5;
+   wire I6;
+   wire I8;
+   wire SUB0;
+   wire SUB1;
+   wire SUB2;
+   wire SUB3;
+   wire SUB4;
+   wire SUB5;
+   wire SUB6;
+   wire SUB7;
+   wire SUB8;
+   wire XLXN_329;
+   wire XLXN_346;
+   wire CO_DUMMY;
+   
+   assign CO = CO_DUMMY;
+   XOR3  I_36_50 (.I0(A[0]), 
+                 .I1(B[0]), 
+                 .I2(SUB0), 
+                 .O(I0));
+ 
+   MUXCY_L  I_36_55 (.CI(C0), 
+                    .DI(A[1]), 
+                    .S(I1), 
+                    .LO(C1));
+   XOR3  I_36_56 (.I0(A[2]), 
+                 .I1(B[2]), 
+                 .I2(SUB2), 
+                 .O(I2));
+   XOR3  I_36_57 (.I0(A[3]), 
+                 .I1(B[3]), 
+                 .I2(SUB3), 
+                 .O(I3));
+
+   MUXCY_L  I_36_58 (.CI(C2), 
+                    .DI(A[3]), 
+                    .S(I3), 
+                    .LO(C3));
+   XOR3  I_36_59 (.I0(A[6]), 
+                 .I1(B[6]), 
+                 .I2(SUB6), 
+                 .O(I6));
+   XOR3  I_36_60 (.I0(A[4]), 
+                 .I1(B[4]), 
+                 .I2(SUB4), 
+                 .O(I4));
+ 
+   MUXCY_L  I_36_62 (.CI(C1), 
+                    .DI(A[2]), 
+                    .S(I2), 
+                    .LO(C2));
+
+   MUXCY_L  I_36_63 (.CI(C3), 
+                    .DI(A[4]), 
+                    .S(I4), 
+                    .LO(C4));
+   XORCY  I_36_73 (.CI(CI), 
+                  .LI(I0), 
+                  .O(S[0]));
+   XORCY  I_36_74 (.CI(C0), 
+                  .LI(I1), 
+                  .O(S[1]));
+   XORCY  I_36_75 (.CI(C2), 
+                  .LI(I3), 
+                  .O(S[3]));
+   XORCY  I_36_76 (.CI(C1), 
+                  .LI(I2), 
+                  .O(S[2]));
+   XORCY  I_36_77 (.CI(C4), 
+                  .LI(I5), 
+                  .O(S[5]));
+   XORCY  I_36_78 (.CI(C3), 
+                  .LI(I4), 
+                  .O(S[4]));
+   XOR3  I_36_79 (.I0(A[7]), 
+                 .I1(B[7]), 
+                 .I2(SUB7), 
+                 .O(XLXN_329));
+   XORCY  I_36_80 (.CI(C6), 
+                  .LI(XLXN_329), 
+                  .O(S[7]));
+   XORCY  I_36_81 (.CI(C5), 
+                  .LI(I6), 
+                  .O(S[6]));
+   XOR3  I_36_100 (.I0(A[1]), 
+                  .I1(B[1]), 
+                  .I2(SUB1), 
+                  .O(I1));
+   XOR3  I_36_109 (.I0(A[5]), 
+                  .I1(B[5]), 
+                  .I2(SUB5), 
+                  .O(I5));
+ 
+   MUXCY_L  I_36_110 (.CI(C4), 
+                     .DI(A[5]), 
+                     .S(I5), 
+                     .LO(C5));
+
+   MUXCY_L  I_36_111 (.CI(CI), 
+                     .DI(A[0]), 
+                     .S(I0), 
+                     .LO(C0));
+   INV  I_36_112 (.I(ADD), 
+                 .O(SUB0));
+   XOR2  I_36_221 (.I0(C6O), 
+                  .I1(CO_DUMMY), 
+                  .O(OFL));
+   INV  I_36_222 (.I(ADD), 
+                 .O(SUB1));
+   INV  I_36_223 (.I(ADD), 
+                 .O(SUB2));
+   INV  I_36_224 (.I(ADD), 
+                 .O(SUB3));
+   INV  I_36_225 (.I(ADD), 
+                 .O(SUB4));
+   INV  I_36_226 (.I(ADD), 
+                 .O(SUB5));
+   INV  I_36_227 (.I(ADD), 
+                 .O(SUB6));
+   INV  I_36_228 (.I(ADD), 
+                 .O(SUB7));
+ 
+   MUXCY  XLXI_151 (.CI(XLXN_346), 
+                   .DI(A[8]), 
+                   .S(I8), 
+                   .O(CO_DUMMY));
+   XORCY  XLXI_152 (.CI(XLXN_346), 
+                   .LI(I8), 
+                   .O(S[8]));
+   INV  XLXI_153 (.I(ADD), 
+                 .O(SUB8));
+   XOR3  XLXI_154 (.I0(A[8]), 
+                  .I1(B[8]), 
+                  .I2(SUB8), 
+                  .O(I8));
+ 
+   MUXCY_D  XLXI_155 (.CI(C6), 
+                     .DI(A[7]), 
+                     .S(XLXN_329), 
+                     .LO(XLXN_346), 
+                     .O(C6O));
+ 
+   MUXCY_L  XLXI_156 (.CI(C5), 
+                     .DI(A[6]), 
+                     .S(I6), 
+                     .LO(C6));
+endmodule

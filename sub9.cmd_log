@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/sub9.v -lang verilog -prj Akash_Driver_v1 -o sub9.spl -module sub9 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w sub9.spl C:/Xilinx/BLDC_Controller/sub9.sym 

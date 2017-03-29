@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Incrementer_Decrementer_drc.vhf -w C:/Xilinx/BLDC_Controller/Incrementer_Decrementer.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Incrementer_Decrementer C:/Xilinx/BLDC_Controller/Incrementer_Decrementer.sch C:/Xilinx/BLDC_Controller/Incrementer_Decrementer.sym 

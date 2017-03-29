@@ -1,0 +1,7 @@
+sch2hdl -intstyle ise -family spartan3e -verilog Multiplier_drc.vf -w E:/FPGA_Xilinx/Multiplier/Multiplier.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Multiplier_drc.vhf -w C:/Xilinx/BLDC_Controller/Multiplier.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Multiplier C:/Xilinx/BLDC_Controller/Multiplier.sch C:/Xilinx/BLDC_Controller/Multiplier.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Multiplier_drc.vhf -w C:/Xilinx/BLDC_Controller/Multiplier.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Multiplier_drc.vhf -w C:/Xilinx/BLDC_Controller/Multiplier.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Multiplier_drc.vhf -w C:/Xilinx/BLDC_Controller/Multiplier.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Multiplier C:/Xilinx/BLDC_Controller/Multiplier.sch C:/Xilinx/BLDC_Controller/Multiplier.sym 

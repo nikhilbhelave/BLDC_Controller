@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym FD9CE E:/FPGA_Xilinx/ETC_WITH_LEDs/FD9CE.sch E:/FPGA_Xilinx/Complete_Fira_1.0/FD9CE.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym FD9CE E:/FPGA_Xilinx/ETC_WITH_LEDs/FD9CE.sch E:/FPGA_Xilinx/Complete_Fira_1.0/FD9CE.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl FD9CE_drc.vhf -w C:/Xilinx/BLDC_Controller/FD9CE.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym FD9CE C:/Xilinx/BLDC_Controller/FD9CE.sch C:/Xilinx/BLDC_Controller/FD9CE.sym 

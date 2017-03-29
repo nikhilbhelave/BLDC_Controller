@@ -1,0 +1,24 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym PWM_VNB {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_VNB.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_VNB.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_VNB.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym PWM_VNB {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_VNB.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_VNB.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/PWM_VNB.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym PWM_VNB C:/Xilinx/BLDC_Controller/PWM_VNB.sch C:/Xilinx/BLDC_Controller/PWM_VNB.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym PWM_VNB C:/Xilinx/BLDC_Controller/PWM_VNB.sch C:/Xilinx/BLDC_Controller/PWM_VNB.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym PWM_VNB C:/Xilinx/BLDC_Controller/PWM_VNB.sch C:/Xilinx/BLDC_Controller/PWM_VNB.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym PWM_VNB C:/Xilinx/BLDC_Controller/PWM_VNB.sch C:/Xilinx/BLDC_Controller/PWM_VNB.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym PWM_VNB C:/Xilinx/BLDC_Controller/PWM_VNB.sch C:/Xilinx/BLDC_Controller/PWM_VNB.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym PWM_VNB C:/Xilinx/BLDC_Controller/PWM_VNB.sch C:/Xilinx/BLDC_Controller/PWM_VNB.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym PWM_VNB C:/Xilinx/BLDC_Controller/PWM_VNB.sch C:/Xilinx/BLDC_Controller/PWM_VNB.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_VNB_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_VNB.sch 

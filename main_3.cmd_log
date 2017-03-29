@@ -1,0 +1,33 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl main_3_drc.vhf -w C:/Xilinx/BLDC_Controller/main_3.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym main_3 C:/Xilinx/BLDC_Controller/main_3.sch C:/Xilinx/BLDC_Controller/main_3.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl main_3_drc.vhf -w C:/Xilinx/BLDC_Controller/main_3.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym main_3 C:/Xilinx/BLDC_Controller/main_3.sch C:/Xilinx/BLDC_Controller/main_3.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/main_3.xst" -ofn "C:/Xilinx/BLDC_Controller/main_3.syr" 
+netgen -intstyle ise -ar Structure -tm main_3 -w -dir netgen/synthesis -ofmt vhdl -sim main_3.ngc main_3_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 main_3.ngc main_3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o main_3_map.ncd main_3.ngd main_3.pcf 
+par -w -intstyle ise -ol high -t 1 main_3_map.ncd main_3.ncd main_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main_3.twx main_3.ncd -o main_3.twr main_3.pcf 
+bitgen -intstyle ise -f main_3.ut main_3.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 main_3.ngc main_3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o main_3_map.ncd main_3.ngd main_3.pcf 
+par -w -intstyle ise -ol high -t 1 main_3_map.ncd main_3.ncd main_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main_3.twx main_3.ncd -o main_3.twr main_3.pcf 
+bitgen -intstyle ise -f main_3.ut main_3.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_3.ucf -p xc3s250e-cp132-5 main_3.ngc main_3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o main_3_map.ncd main_3.ngd main_3.pcf 
+par -w -intstyle ise -ol high -t 1 main_3_map.ncd main_3.ncd main_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main_3.twx main_3.ncd -o main_3.twr main_3.pcf -ucf main_3.ucf 
+bitgen -intstyle ise -f main_3.ut main_3.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl main_3_drc.vhf -w C:/Xilinx/BLDC_Controller/main_3.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym main_3 C:/Xilinx/BLDC_Controller/main_3.sch C:/Xilinx/BLDC_Controller/main_3.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl main_3_drc.vhf -w C:/Xilinx/BLDC_Controller/main_3.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym main_3 C:/Xilinx/BLDC_Controller/main_3.sch C:/Xilinx/BLDC_Controller/main_3.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/main_3.xst" -ofn "C:/Xilinx/BLDC_Controller/main_3.syr" 
+netgen -intstyle ise -ar Structure -tm main_3 -w -dir netgen/synthesis -ofmt vhdl -sim main_3.ngc main_3_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main_3.ucf -p xc3s250e-cp132-5 main_3.ngc main_3.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o main_3_map.ncd main_3.ngd main_3.pcf 
+par -w -intstyle ise -ol high -t 1 main_3_map.ncd main_3.ncd main_3.pcf 
+bitgen -intstyle ise -f main_3.ut main_3.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl main_3_drc.vhf -w C:/Xilinx/BLDC_Controller/main_3.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym main_3 C:/Xilinx/BLDC_Controller/main_3.sch C:/Xilinx/BLDC_Controller/main_3.sym 

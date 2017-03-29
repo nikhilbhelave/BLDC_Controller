@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl PWM_NB_2_drc.vhf -w C:/Xilinx/BLDC_Controller/PWM_NB_2.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym PWM_NB_2 C:/Xilinx/BLDC_Controller/PWM_NB_2.sch C:/Xilinx/BLDC_Controller/PWM_NB_2.sym 

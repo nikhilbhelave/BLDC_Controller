@@ -1,0 +1,5 @@
+set -tmpdir "C:/Xilinx/BLDC_Controller/xst/projnav.tmp"
+set -xsthdpdir "C:/Xilinx/BLDC_Controller/xst"
+elaborate
+-ifn Fuzzy_logic_based_tuner.prj
+-ifmt mixed

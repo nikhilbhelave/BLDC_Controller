@@ -1,0 +1,836 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: Complete.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Complete.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Complete"
+Output Format                      : NGC
+Target Device                      : xc3s250e-5-cp132
+
+---- Source Options
+Top Module Name                    : Complete
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/clk_change.vhf" in Library work.
+Architecture behavioral of Entity cj4ce_mxilinx_clk_change is up to date.
+Architecture behavioral of Entity clk_change is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/PWM_VNB.vhf" in Library work.
+Architecture behavioral of Entity ftrse_mxilinx_pwm_vnb is up to date.
+Architecture behavioral of Entity cb4re_mxilinx_pwm_vnb is up to date.
+Architecture behavioral of Entity pwm_v2_muser_pwm_vnb is up to date.
+Architecture behavioral of Entity comparator_muser_pwm_vnb is up to date.
+Architecture behavioral of Entity pwm_vnb is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/PWM_V2.vhf" in Library work.
+Architecture behavioral of Entity pwm_v2 is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/PWM_NB_2.vhf" in Library work.
+Architecture behavioral of Entity ftrse_mxilinx_pwm_nb_2 is up to date.
+Architecture behavioral of Entity cb4re_mxilinx_pwm_nb_2 is up to date.
+Architecture behavioral of Entity pwm_v2_muser_pwm_nb_2 is up to date.
+Architecture behavioral of Entity comparator_muser_pwm_nb_2 is up to date.
+Architecture behavioral of Entity pwm_nb_2 is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/PWM.vhf" in Library work.
+Architecture behavioral of Entity ftce_mxilinx_pwm is up to date.
+Architecture behavioral of Entity cb4ce_mxilinx_pwm is up to date.
+Architecture behavioral of Entity pwm is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/MAIN.vhf" in Library work.
+Architecture behavioral of Entity commutation_muser_main is up to date.
+Architecture behavioral of Entity ftrse_mxilinx_main is up to date.
+Architecture behavioral of Entity cb4re_mxilinx_main is up to date.
+Architecture behavioral of Entity pwm_v2_muser_main is up to date.
+Architecture behavioral of Entity comparator_muser_main is up to date.
+Architecture behavioral of Entity pwm_vnb_muser_main is up to date.
+Architecture behavioral of Entity or6_mxilinx_main is up to date.
+Architecture behavioral of Entity m2_1_mxilinx_main is up to date.
+Architecture behavioral of Entity main is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/DEADTIME.vhf" in Library work.
+Architecture behavioral of Entity deadtime is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/Comparator.vhf" in Library work.
+Architecture behavioral of Entity pwm_v2_muser_comparator is up to date.
+Architecture behavioral of Entity comparator is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/Complete.vhf" in Library work.
+Entity <commutation_muser_complete> compiled.
+Entity <commutation_muser_complete> (Architecture <behavioral>) compiled.
+Entity <main_1_muser_complete> compiled.
+Entity <main_1_muser_complete> (Architecture <behavioral>) compiled.
+Entity <fd9ce_muser_complete> compiled.
+Entity <fd9ce_muser_complete> (Architecture <behavioral>) compiled.
+Entity <incrementer_decrementer_muser_complete> compiled.
+Entity <incrementer_decrementer_muser_complete> (Architecture <behavioral>) compiled.
+Entity <flip_flip9_muser_complete> compiled.
+Entity <flip_flip9_muser_complete> (Architecture <behavioral>) compiled.
+Entity <couter_9ce_muser_complete> compiled.
+Entity <couter_9ce_muser_complete> (Architecture <behavioral>) compiled.
+Entity <etc_syncronous_muser_complete> compiled.
+Entity <etc_syncronous_muser_complete> (Architecture <behavioral>) compiled.
+Entity <fjkc_mxilinx_complete> compiled.
+Entity <fjkc_mxilinx_complete> (Architecture <behavioral>) compiled.
+Entity <digital_filter_muser_complete> compiled.
+Entity <digital_filter_muser_complete> (Architecture <behavioral>) compiled.
+Entity <main_module_muser_complete> compiled.
+Entity <main_module_muser_complete> (Architecture <behavioral>) compiled.
+Entity <complete> compiled.
+Entity <complete> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/MAIN_1.vhf" in Library work.
+Entity <commutation_muser_main_1> compiled.
+Entity <commutation_muser_main_1> (Architecture <behavioral>) compiled.
+Entity <main_1> compiled.
+Entity <main_1> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/Main_Module.vhf" in Library work.
+Entity <fd9ce_muser_main_module> compiled.
+Entity <fd9ce_muser_main_module> (Architecture <behavioral>) compiled.
+Entity <incrementer_decrementer_muser_main_module> compiled.
+Entity <incrementer_decrementer_muser_main_module> (Architecture <behavioral>) compiled.
+Entity <flip_flip9_muser_main_module> compiled.
+Entity <flip_flip9_muser_main_module> (Architecture <behavioral>) compiled.
+Entity <couter_9ce_muser_main_module> compiled.
+Entity <couter_9ce_muser_main_module> (Architecture <behavioral>) compiled.
+Entity <etc_syncronous_muser_main_module> compiled.
+Entity <etc_syncronous_muser_main_module> (Architecture <behavioral>) compiled.
+Entity <fjkc_mxilinx_main_module> compiled.
+Entity <fjkc_mxilinx_main_module> (Architecture <behavioral>) compiled.
+Entity <digital_filter_muser_main_module> compiled.
+Entity <digital_filter_muser_main_module> (Architecture <behavioral>) compiled.
+Entity <main_module> compiled.
+Entity <main_module> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/Commutation.vhf" in Library work.
+Architecture behavioral of Entity commutation is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/Digital_Filter.vhf" in Library work.
+Architecture behavioral of Entity fjkc_mxilinx_digital_filter is up to date.
+Architecture behavioral of Entity digital_filter is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/ETC_SYNCRONOUS.vhf" in Library work.
+Architecture behavioral of Entity fd9ce_muser_etc_syncronous is up to date.
+Architecture behavioral of Entity incrementer_decrementer_muser_etc_syncronous is up to date.
+Architecture behavioral of Entity flip_flip9_muser_etc_syncronous is up to date.
+Architecture behavioral of Entity couter_9ce_muser_etc_syncronous is up to date.
+Architecture behavioral of Entity etc_syncronous is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/Couter_9CE.vhf" in Library work.
+Architecture behavioral of Entity incrementer_decrementer_muser_couter_9ce is up to date.
+Architecture behavioral of Entity flip_flip9_muser_couter_9ce is up to date.
+Architecture behavioral of Entity couter_9ce is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/FD9CE.vhf" in Library work.
+Architecture behavioral of Entity fd9ce is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/Flip_flip9.vhf" in Library work.
+Architecture behavioral of Entity flip_flip9 is up to date.
+Compiling vhdl file "C:/Xilinx/BLDC_Controller/Incrementer_Decrementer.vhf" in Library work.
+Architecture behavioral of Entity incrementer_decrementer is up to date.
+Compiling verilog file "pwm_42.v" in library work
+Compiling verilog file "pwm_4.v" in library work
+Module <pwm_42> compiled
+Compiling verilog file "PID.v" in library work
+Module <pwm_4> compiled
+Compiling verilog file "CLOCK_32.v" in library work
+Module <PID> compiled
+Module <CLOCK_32> compiled
+No errors in compilation
+Analysis of file <"Complete.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Complete> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Main_Module_MUSER_Complete> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MAIN_1_MUSER_Complete> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Digital_Filter_MUSER_Complete> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ETC_SYNCRONOUS_MUSER_Complete> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for module <CLOCK_32> in library <work>.
+
+Analyzing hierarchy for entity <Commutation_MUSER_Complete> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for module <pwm_42> in library <work>.
+
+Analyzing hierarchy for module <pwm_4> in library <work>.
+
+Analyzing hierarchy for module <PID> in library <work>.
+
+Analyzing hierarchy for entity <FJKC_MXILINX_Complete> in library <work> (architecture <behavioral>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <Couter_9CE_MUSER_Complete> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FD9CE_MUSER_Complete> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Flip_flip9_MUSER_Complete> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Incrementer_Decrementer_MUSER_Complete> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Complete> in library <work> (Architecture <behavioral>).
+Entity <Complete> analyzed. Unit <Complete> generated.
+
+Analyzing Entity <Main_Module_MUSER_Complete> in library <work> (Architecture <behavioral>).
+Entity <Main_Module_MUSER_Complete> analyzed. Unit <Main_Module_MUSER_Complete> generated.
+
+Analyzing Entity <Digital_Filter_MUSER_Complete> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_1> in unit <Digital_Filter_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_2> in unit <Digital_Filter_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_3> in unit <Digital_Filter_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_4> in unit <Digital_Filter_MUSER_Complete>.
+    Set user-defined property "HU_SET =  XLXI_11_0" for instance <XLXI_11> in unit <Digital_Filter_MUSER_Complete>.
+Entity <Digital_Filter_MUSER_Complete> analyzed. Unit <Digital_Filter_MUSER_Complete> generated.
+
+Analyzing generic Entity <FJKC_MXILINX_Complete> in library <work> (Architecture <behavioral>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_32> in unit <FJKC_MXILINX_Complete>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_32> in unit <FJKC_MXILINX_Complete>.
+Entity <FJKC_MXILINX_Complete> analyzed. Unit <FJKC_MXILINX_Complete> generated.
+
+Analyzing Entity <ETC_SYNCRONOUS_MUSER_Complete> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_1> in unit <ETC_SYNCRONOUS_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_37> in unit <ETC_SYNCRONOUS_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_38> in unit <ETC_SYNCRONOUS_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_39> in unit <ETC_SYNCRONOUS_MUSER_Complete>.
+Entity <ETC_SYNCRONOUS_MUSER_Complete> analyzed. Unit <ETC_SYNCRONOUS_MUSER_Complete> generated.
+
+Analyzing Entity <Couter_9CE_MUSER_Complete> in library <work> (Architecture <behavioral>).
+Entity <Couter_9CE_MUSER_Complete> analyzed. Unit <Couter_9CE_MUSER_Complete> generated.
+
+Analyzing Entity <Flip_flip9_MUSER_Complete> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_12> in unit <Flip_flip9_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_13> in unit <Flip_flip9_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_14> in unit <Flip_flip9_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_15> in unit <Flip_flip9_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_16> in unit <Flip_flip9_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_17> in unit <Flip_flip9_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_18> in unit <Flip_flip9_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_19> in unit <Flip_flip9_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_20> in unit <Flip_flip9_MUSER_Complete>.
+Entity <Flip_flip9_MUSER_Complete> analyzed. Unit <Flip_flip9_MUSER_Complete> generated.
+
+Analyzing Entity <Incrementer_Decrementer_MUSER_Complete> in library <work> (Architecture <behavioral>).
+Entity <Incrementer_Decrementer_MUSER_Complete> analyzed. Unit <Incrementer_Decrementer_MUSER_Complete> generated.
+
+Analyzing Entity <FD9CE_MUSER_Complete> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <I_Q0> in unit <FD9CE_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <I_Q1> in unit <FD9CE_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <I_Q2> in unit <FD9CE_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <I_Q3> in unit <FD9CE_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <I_Q4> in unit <FD9CE_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <I_Q5> in unit <FD9CE_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <I_Q6> in unit <FD9CE_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <I_Q7> in unit <FD9CE_MUSER_Complete>.
+    Set user-defined property "INIT =  0" for instance <XLXI_9> in unit <FD9CE_MUSER_Complete>.
+Entity <FD9CE_MUSER_Complete> analyzed. Unit <FD9CE_MUSER_Complete> generated.
+
+Analyzing module <CLOCK_32> in library <work>.
+Module <CLOCK_32> is correct for synthesis.
+ 
+Analyzing Entity <MAIN_1_MUSER_Complete> in library <work> (Architecture <behavioral>).
+Entity <MAIN_1_MUSER_Complete> analyzed. Unit <MAIN_1_MUSER_Complete> generated.
+
+Analyzing Entity <Commutation_MUSER_Complete> in library <work> (Architecture <behavioral>).
+Entity <Commutation_MUSER_Complete> analyzed. Unit <Commutation_MUSER_Complete> generated.
+
+Analyzing module <pwm_42> in library <work>.
+Module <pwm_42> is correct for synthesis.
+ 
+Analyzing module <pwm_4> in library <work>.
+Module <pwm_4> is correct for synthesis.
+ 
+Analyzing module <PID> in library <work>.
+Module <PID> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CLOCK_32>.
+    Related source file is "CLOCK_32.v".
+    Found 1-bit register for signal <rst>.
+    Found 18-bit up counter for signal <c>.
+    Found 18-bit comparator greater for signal <c$cmp_gt0000> created at line 29.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <CLOCK_32> synthesized.
+
+
+Synthesizing Unit <pwm_42>.
+    Related source file is "pwm_42.v".
+    Found 9-bit up counter for signal <Qn>.
+    Found 9-bit comparator less for signal <Qn$cmp_lt0000> created at line 41.
+    Found 1-bit register for signal <S>.
+    Found 9-bit comparator greatequal for signal <S$cmp_ge0000> created at line 51.
+    Found 1-bit register for signal <Temp>.
+    Found 9-bit comparator less for signal <Temp$cmp_lt0000> created at line 51.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+Unit <pwm_42> synthesized.
+
+
+Synthesizing Unit <pwm_4>.
+    Related source file is "pwm_4.v".
+    Found 9-bit up counter for signal <Qn>.
+    Found 9-bit comparator less for signal <Qn$cmp_lt0000> created at line 41.
+    Found 1-bit register for signal <S>.
+    Found 9-bit comparator less for signal <S$cmp_lt0000> created at line 51.
+    Found 1-bit register for signal <Temp>.
+    Found 9-bit comparator greatequal for signal <Temp$cmp_ge0000> created at line 51.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+Unit <pwm_4> synthesized.
+
+
+Synthesizing Unit <PID>.
+    Related source file is "PID.v".
+WARNING:Xst:646 - Signal <vel_output_w<13:9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <target_vel_r> is used but never assigned. This sourceless signal will be automatically connected to value 000000101.
+WARNING:Xst:646 - Signal <Delta_ERR_Wire> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:643 - "PID.v" line 41: The result of a 10x5-bit multiplication is partially used. Only the 14 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 9-bit register for signal <current_vel_r>.
+    Found 9-bit register for signal <error>.
+    Found 9-bit subtractor for signal <error$sub0000> created at line 49.
+    Found 10-bit register for signal <error_diff>.
+    Found 10-bit subtractor for signal <error_diff$sub0000> created at line 51.
+    Found 4-bit register for signal <Kd_r>.
+    Found 4-bit register for signal <Kp_r>.
+    Found 9-bit register for signal <prev_error>.
+    Found 9-bit up accumulator for signal <vel_output_r>.
+    Found 14-bit adder for signal <vel_output_w>.
+    Found 10x5-bit multiplier for signal <vel_output_w$mult0001> created at line 41.
+    Found 9x5-bit multiplier for signal <vel_output_w$mult0002> created at line 41.
+    Summary:
+	inferred   1 Accumulator(s).
+	inferred  45 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   2 Multiplier(s).
+Unit <PID> synthesized.
+
+
+Synthesizing Unit <FJKC_MXILINX_Complete>.
+    Related source file is "C:/Xilinx/BLDC_Controller/Complete.vhf".
+Unit <FJKC_MXILINX_Complete> synthesized.
+
+
+Synthesizing Unit <FD9CE_MUSER_Complete>.
+    Related source file is "C:/Xilinx/BLDC_Controller/Complete.vhf".
+Unit <FD9CE_MUSER_Complete> synthesized.
+
+
+Synthesizing Unit <Flip_flip9_MUSER_Complete>.
+    Related source file is "C:/Xilinx/BLDC_Controller/Complete.vhf".
+Unit <Flip_flip9_MUSER_Complete> synthesized.
+
+
+Synthesizing Unit <Incrementer_Decrementer_MUSER_Complete>.
+    Related source file is "C:/Xilinx/BLDC_Controller/Complete.vhf".
+Unit <Incrementer_Decrementer_MUSER_Complete> synthesized.
+
+
+Synthesizing Unit <Commutation_MUSER_Complete>.
+    Related source file is "C:/Xilinx/BLDC_Controller/Complete.vhf".
+Unit <Commutation_MUSER_Complete> synthesized.
+
+
+Synthesizing Unit <MAIN_1_MUSER_Complete>.
+    Related source file is "C:/Xilinx/BLDC_Controller/Complete.vhf".
+WARNING:Xst:653 - Signal <XLXN_361> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <MAIN_1_MUSER_Complete> synthesized.
+
+
+Synthesizing Unit <Digital_Filter_MUSER_Complete>.
+    Related source file is "C:/Xilinx/BLDC_Controller/Complete.vhf".
+Unit <Digital_Filter_MUSER_Complete> synthesized.
+
+
+Synthesizing Unit <Couter_9CE_MUSER_Complete>.
+    Related source file is "C:/Xilinx/BLDC_Controller/Complete.vhf".
+Unit <Couter_9CE_MUSER_Complete> synthesized.
+
+
+Synthesizing Unit <ETC_SYNCRONOUS_MUSER_Complete>.
+    Related source file is "C:/Xilinx/BLDC_Controller/Complete.vhf".
+Unit <ETC_SYNCRONOUS_MUSER_Complete> synthesized.
+
+
+Synthesizing Unit <Main_Module_MUSER_Complete>.
+    Related source file is "C:/Xilinx/BLDC_Controller/Complete.vhf".
+Unit <Main_Module_MUSER_Complete> synthesized.
+
+
+Synthesizing Unit <Complete>.
+    Related source file is "C:/Xilinx/BLDC_Controller/Complete.vhf".
+Unit <Complete> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 2
+ 10x5-bit multiplier                                   : 1
+ 9x5-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 3
+ 10-bit subtractor                                     : 1
+ 14-bit adder                                          : 1
+ 9-bit subtractor                                      : 1
+# Counters                                             : 3
+ 18-bit up counter                                     : 1
+ 9-bit up counter                                      : 2
+# Accumulators                                         : 1
+ 9-bit up accumulator                                  : 1
+# Registers                                            : 11
+ 1-bit register                                        : 5
+ 10-bit register                                       : 1
+ 4-bit register                                        : 2
+ 9-bit register                                        : 3
+# Comparators                                          : 7
+ 18-bit comparator greater                             : 1
+ 9-bit comparator greatequal                           : 2
+ 9-bit comparator less                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <PID>.
+	Found pipelined multiplier on signal <vel_output_w_mult0001>:
+		- 1 pipeline level(s) found in a register on signal <error_diff>.
+		Pushing register(s) into the multiplier macro.
+
+		- 1 pipeline level(s) found in a register on signal <Kd_r>.
+		Pushing register(s) into the multiplier macro.
+	Found pipelined multiplier on signal <vel_output_w_mult0002>:
+		- 1 pipeline level(s) found in a register on signal <error>.
+		Pushing register(s) into the multiplier macro.
+
+		- 1 pipeline level(s) found in a register on signal <Kp_r>.
+		Pushing register(s) into the multiplier macro.
+INFO:Xst:2385 - HDL ADVISOR - You can improve the performance of the multiplier Mmult_vel_output_w_mult0001 by adding 1 register level(s).
+INFO:Xst:2385 - HDL ADVISOR - You can improve the performance of the multiplier Mmult_vel_output_w_mult0002 by adding 1 register level(s).
+Unit <PID> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 2
+ 10x5-bit registered multiplier                        : 1
+ 9x5-bit registered multiplier                         : 1
+# Adders/Subtractors                                   : 3
+ 10-bit subtractor                                     : 1
+ 9-bit adder                                           : 1
+ 9-bit subtractor                                      : 1
+# Counters                                             : 3
+ 18-bit up counter                                     : 1
+ 9-bit up counter                                      : 2
+# Accumulators                                         : 1
+ 9-bit up accumulator                                  : 1
+# Registers                                            : 64
+ Flip-Flops                                            : 64
+# Comparators                                          : 7
+ 18-bit comparator greater                             : 1
+ 9-bit comparator greatequal                           : 2
+ 9-bit comparator less                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Complete> ...
+
+Optimizing unit <pwm_42> ...
+
+Optimizing unit <pwm_4> ...
+
+Optimizing unit <PID> ...
+
+Optimizing unit <FJKC_MXILINX_Complete> ...
+
+Optimizing unit <FD9CE_MUSER_Complete> ...
+
+Optimizing unit <Flip_flip9_MUSER_Complete> ...
+
+Optimizing unit <Incrementer_Decrementer_MUSER_Complete> ...
+
+Optimizing unit <Commutation_MUSER_Complete> ...
+
+Optimizing unit <MAIN_1_MUSER_Complete> ...
+
+Optimizing unit <Digital_Filter_MUSER_Complete> ...
+
+Optimizing unit <ETC_SYNCRONOUS_MUSER_Complete> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Complete, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 109
+ Flip-Flops                                            : 109
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Complete.ngr
+Top Level Output File Name         : Complete
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 30
+
+Cell Usage :
+# BELS                             : 354
+#      AND2                        : 12
+#      AND2B1                      : 2
+#      AND3B1                      : 2
+#      AND3B2                      : 2
+#      AND4                        : 4
+#      GND                         : 1
+#      INV                         : 25
+#      LUT1                        : 35
+#      LUT2                        : 53
+#      LUT3                        : 6
+#      LUT4                        : 13
+#      MUXCY                       : 84
+#      MUXF5                       : 4
+#      MUXF8                       : 12
+#      OR2                         : 4
+#      OR3                         : 4
+#      VCC                         : 1
+#      XOR2                        : 26
+#      XORCY                       : 64
+# FlipFlops/Latches                : 109
+#      FD                          : 8
+#      FDC                         : 2
+#      FDCE                        : 18
+#      FDE                         : 39
+#      FDR                         : 42
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 29
+#      IBUF                        : 14
+#      OBUF                        : 15
+# MULTs                            : 2
+#      MULT18X18SIO                : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s250ecp132-5 
+
+ Number of Slices:                       94  out of   2448     3%  
+ Number of Slice Flip Flops:            109  out of   4896     2%  
+ Number of 4 input LUTs:                132  out of   4896     2%  
+ Number of IOs:                          30
+ Number of bonded IOBs:                  30  out of     92    32%  
+ Number of MULT18X18SIOs:                 2  out of     12    16%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)            | Load  |
+-----------------------------------+----------------------------------+-------+
+clk                                | BUFGP                            | 102   |
+XLXI_2/XLXI_42/rst                 | NONE(XLXI_2/XLXI_41/XLXI_48/I_Q0)| 9     |
+-----------------------------------+----------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------+-------------------------------------------+-------+
+Control Signal                                   | Buffer(FF name)                           | Load  |
+-------------------------------------------------+-------------------------------------------+-------+
+RST_1                                            | IBUF                                      | 9     |
+XLXI_2/XLXI_41/XLXN_122(XLXI_2/XLXI_41/XLXI_43:O)| NONE(XLXI_2/XLXI_41/XLXI_8/XLXI_3/XLXI_12)| 9     |
+N0(XST_GND:G)                                    | NONE(XLXI_2/XLXI_33/XLXI_11/I_36_32)      | 2     |
+-------------------------------------------------+-------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 11.641ns (Maximum Frequency: 85.905MHz)
+   Minimum input arrival time before clock: 7.830ns
+   Maximum output required time after clock: 6.315ns
+   Maximum combinational path delay: 8.255ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 11.641ns (frequency: 85.905MHz)
+  Total number of paths / destination ports: 2209 / 173
+-------------------------------------------------------------------------
+Delay:               11.641ns (Levels of Logic = 11)
+  Source:            XLXI_2/XLXI_34/XLXI_11/I_36_32 (FF)
+  Destination:       XLXI_2/XLXI_41/XLXI_8/XLXI_3/XLXI_18 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: XLXI_2/XLXI_34/XLXI_11/I_36_32 to XLXI_2/XLXI_41/XLXI_8/XLXI_3/XLXI_18
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             20   0.514   0.937  I_36_32 (Q)
+     end scope: 'XLXI_2/XLXI_34/XLXI_11'
+     XOR2:I0->O            3   0.612   0.451  XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXI_9 (XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXN_52)
+     AND2:I1->O            2   0.612   0.380  XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXI_35 (XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXN_55)
+     AND2:I1->O            2   0.612   0.380  XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXI_21 (XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXN_57)
+     AND2:I1->O            2   0.612   0.380  XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXI_20 (XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXN_48)
+     AND2:I1->O            2   0.612   0.380  XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXI_19 (XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXN_47)
+     AND2:I1->O            2   0.612   0.380  XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXI_18 (XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXN_46)
+     AND2:I1->O            2   0.612   0.380  XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXI_17 (XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXN_75)
+     AND2:I1->O            1   0.612   0.357  XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXI_49 (XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXN_73)
+     XOR2:I1->O            1   0.612   0.357  XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXI_48 (XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXN_71)
+     XOR2:I1->O            1   0.612   0.357  XLXI_2/XLXI_41/XLXI_8/XLXI_4/XLXI_46 (XLXI_2/XLXI_41/XLXI_8/XLXN_1)
+     FDCE:D                    0.268          XLXI_2/XLXI_41/XLXI_8/XLXI_3/XLXI_18
+    ----------------------------------------
+    Total                     11.641ns (6.902ns logic, 4.739ns route)
+                                       (59.3% logic, 40.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 142 / 32
+-------------------------------------------------------------------------
+Offset:              7.830ns (Levels of Logic = 6)
+  Source:            H3 (PAD)
+  Destination:       XLXI_3/XLXI_187/Qn_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: H3 to XLXI_3/XLXI_187/Qn_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.451  H3_IBUF (H3_IBUF)
+     INV:I->O              2   0.612   0.380  XLXI_3/XLXI_71/XLXI_26 (XLXI_3/XLXI_71/XLXN_58)
+     OR2:I1->O             2   0.612   0.380  XLXI_3/XLXI_71/XLXI_29 (XLXI_3/XLXN_171)
+     INV:I->O              1   0.612   0.357  XLXI_3/XLXI_160 (XLXI_3/XLXN_289)
+     OR3:I0->O             3   0.612   0.603  XLXI_3/XLXI_189 (XLXI_3/XLXN_335)
+     LUT3:I0->O            9   0.612   0.697  XLXI_3/XLXI_187/Qn_not000124 (XLXI_3/XLXI_187/Qn_not0001)
+     FDR:R                     0.795          XLXI_3/XLXI_187/Qn_0
+    ----------------------------------------
+    Total                      7.830ns (4.961ns logic, 2.869ns route)
+                                       (63.4% logic, 36.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 18 / 6
+-------------------------------------------------------------------------
+Offset:              6.315ns (Levels of Logic = 3)
+  Source:            XLXI_3/XLXI_187/Temp (FF)
+  Destination:       AA (PAD)
+  Source Clock:      clk rising
+
+  Data Path: XLXI_3/XLXI_187/Temp to AA
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.514   0.357  XLXI_3/XLXI_187/Temp (XLXI_3/XLXI_187/Temp)
+     OR2:I0->O             6   0.612   0.569  XLXI_3/XLXI_192 (XLXI_3/XLXN_364)
+     MUXF8:S->O            1   0.737   0.357  XLXI_3/XLXI_132 (A_OBUF)
+     OBUF:I->O                 3.169          A_OBUF (A)
+    ----------------------------------------
+    Total                      6.315ns (5.032ns logic, 1.283ns route)
+                                       (79.7% logic, 20.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_2/XLXI_42/rst'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              4.063ns (Levels of Logic = 1)
+  Source:            XLXI_2/XLXI_41/XLXI_48/XLXI_9 (FF)
+  Destination:       Led<8> (PAD)
+  Source Clock:      XLXI_2/XLXI_42/rst rising
+
+  Data Path: XLXI_2/XLXI_41/XLXI_48/XLXI_9 to Led<8>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.514   0.380  XLXI_2/XLXI_41/XLXI_48/XLXI_9 (Led_8_OBUF)
+     OBUF:I->O                 3.169          Led_8_OBUF (Led<8>)
+    ----------------------------------------
+    Total                      4.063ns (3.683ns logic, 0.380ns route)
+                                       (90.6% logic, 9.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 12 / 6
+-------------------------------------------------------------------------
+Delay:               8.255ns (Levels of Logic = 6)
+  Source:            H1 (PAD)
+  Destination:       AA (PAD)
+
+  Data Path: H1 to AA
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.451  H1_IBUF (H1_IBUF)
+     INV:I->O              2   0.612   0.380  XLXI_3/XLXI_71/XLXI_24 (XLXI_3/XLXI_71/XLXN_59)
+     OR2:I1->O             2   0.612   0.380  XLXI_3/XLXI_71/XLXI_27 (XLXI_3/XLXN_167)
+     MUXF8:S->O            1   0.737   0.000  XLXI_3/XLXI_108 (XLXI_3/XLXN_267)
+     MUXF8:I0->O           1   0.451   0.357  XLXI_3/XLXI_132 (A_OBUF)
+     OBUF:I->O                 3.169          A_OBUF (A)
+    ----------------------------------------
+    Total                      8.255ns (6.687ns logic, 1.568ns route)
+                                       (81.0% logic, 19.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.77 secs
+ 
+--> 
+
+Total memory usage is 324588 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

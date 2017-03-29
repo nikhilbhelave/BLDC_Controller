@@ -1,0 +1,9 @@
+[Inputs]
+clk
+ticks
+[Outputs]
+=rpm[9:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel encoder
+

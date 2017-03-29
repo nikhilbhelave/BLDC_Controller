@@ -1,0 +1,7 @@
+NET "A_OUT"	 LOC = "B2";
+NET "AA_OUT" LOC = "A3";
+NET "B_OUT"	 LOC = "C6";
+NET "BB_OUT" LOC = "B6";
+NET "C_OUT"	 LOC = "A9";
+NET "CC_OUT" LOC = "B9";
+NET 

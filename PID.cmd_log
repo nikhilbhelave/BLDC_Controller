@@ -1,0 +1,10 @@
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/PID.v -lang verilog -prj Akash_Driver_v1 -o PID.spl -module PID -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PID.spl C:/Xilinx/BLDC_Controller/PID.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/PID.v -lang verilog -prj Akash_Driver_v1 -o PID.spl -module PID -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PID.spl C:/Xilinx/BLDC_Controller/PID.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/PID.v -lang verilog -prj Akash_Driver_v1 -o PID.spl -module PID -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PID.spl C:/Xilinx/BLDC_Controller/PID.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/PID.v -lang verilog -prj Akash_Driver_v1 -o PID.spl -module PID -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PID.spl C:/Xilinx/BLDC_Controller/PID.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/PID.v -lang verilog -prj Akash_Driver_v1 -o PID.spl -module PID -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PID.spl C:/Xilinx/BLDC_Controller/PID.sym 

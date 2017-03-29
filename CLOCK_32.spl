@@ -1,0 +1,8 @@
+[Inputs]
+clk
+[Outputs]
+rst
+[BiDir]
+[ATTRIBUTES]
+VeriModel CLOCK_32
+

@@ -1,0 +1,10 @@
+[Inputs]
+CLK
+CE
+=D[3:0]=
+[Outputs]
+PWM
+[BiDir]
+[ATTRIBUTES]
+VeriModel PWM_Verilog
+

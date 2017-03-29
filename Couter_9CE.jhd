@@ -1,0 +1,5 @@
+MODULE Couter_9CE
+	SUBMODULE Flip_flip9
+		INSTANCE XLXI_3
+	SUBMODULE Incrementer_Decrementer
+		INSTANCE XLXI_4

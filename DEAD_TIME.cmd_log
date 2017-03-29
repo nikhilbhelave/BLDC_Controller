@@ -1,0 +1,10 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl DEAD_TIME_drc.vhf -w {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym DEAD_TIME {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sch} {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl DEAD_TIME_drc.vhf -w {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym DEAD_TIME {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sch} {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl DEAD_TIME_drc.vhf -w {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl DEAD_TIME_drc.vhf -w {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym DEAD_TIME {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sch} {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl DEAD_TIME_drc.vhf -w {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym DEAD_TIME {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sch} {C:/Users/Chaitanya Paikara/Downloads/Akash_Driver_v1/Akash_Driver_v1/DEAD_TIME.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym DEAD_TIME {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/DEAD_TIME.sch} {C:/Users/Chaitanya Paikara/Documents/GitHub/Xilinx_FPGA/BLDC_Controller/DEAD_TIME.sym} 

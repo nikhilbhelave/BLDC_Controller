@@ -1,0 +1,12 @@
+NET "E_1" LOC = "J3" ;
+NET "E_2" LOC = "B5";
+NET "RST_1" LOC = "C5";
+NET "TICKS[0]" LOC = "M5";
+NET "TICKS[1]" LOC = "M11";
+NET "TICKS[2]" LOC = "P7";
+NET "TICKS[3]" LOC = "P6";
+NET "TICKS[4]" LOC = "N5" ;
+NET "TICKS[5]" LOC = "N4";
+NET "TICKS[6]" LOC = "P4" ;
+NET "TICKS[7]" LOC = "G1";
+NET "CLK" LOC = "B8" ;

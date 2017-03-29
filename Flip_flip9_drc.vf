@@ -1,0 +1,102 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Flip_flip9_drc.vf
+// /___/   /\     Timestamp : 05/10/2015 02:29:53
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog Flip_flip9_drc.vf -w E:/FPGA_Xilinx/Error/Flip_flip9.sch
+//Design Name: Flip_flip9
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Flip_flip9(C_0, 
+                  I_0, 
+                  I_1, 
+                  I_2, 
+                  I_3, 
+                  I_4, 
+                  I_5, 
+                  I_6, 
+                  I_7, 
+                  I_8, 
+                  RST, 
+                  O_0, 
+                  O_1, 
+                  O_2, 
+                  O_3, 
+                  O_4, 
+                  O_5, 
+                  O_6, 
+                  O_7, 
+                  O_8);
+
+    input C_0;
+    input I_0;
+    input I_1;
+    input I_2;
+    input I_3;
+    input I_4;
+    input I_5;
+    input I_6;
+    input I_7;
+    input I_8;
+    input RST;
+   output O_0;
+   output O_1;
+   output O_2;
+   output O_3;
+   output O_4;
+   output O_5;
+   output O_6;
+   output O_7;
+   output O_8;
+   
+   
+   FDR #( .INIT(1'b0) ) XLXI_3 (.C(C_0), 
+               .D(I_8), 
+               .R(RST), 
+               .Q(O_8));
+   FDR #( .INIT(1'b0) ) XLXI_4 (.C(C_0), 
+               .D(I_7), 
+               .R(RST), 
+               .Q(O_7));
+   FDR #( .INIT(1'b0) ) XLXI_5 (.C(C_0), 
+               .D(I_6), 
+               .R(RST), 
+               .Q(O_6));
+   FDR #( .INIT(1'b0) ) XLXI_6 (.C(C_0), 
+               .D(I_5), 
+               .R(RST), 
+               .Q(O_5));
+   FDR #( .INIT(1'b0) ) XLXI_7 (.C(C_0), 
+               .D(I_4), 
+               .R(RST), 
+               .Q(O_4));
+   FDR #( .INIT(1'b0) ) XLXI_8 (.C(C_0), 
+               .D(I_3), 
+               .R(RST), 
+               .Q(O_3));
+   FDR #( .INIT(1'b0) ) XLXI_9 (.C(C_0), 
+               .D(I_2), 
+               .R(RST), 
+               .Q(O_2));
+   FDR #( .INIT(1'b0) ) XLXI_10 (.C(C_0), 
+                .D(I_1), 
+                .R(RST), 
+                .Q(O_1));
+   FDR #( .INIT(1'b0) ) XLXI_11 (.C(C_0), 
+                .D(I_0), 
+                .R(RST), 
+                .Q(O_0));
+endmodule

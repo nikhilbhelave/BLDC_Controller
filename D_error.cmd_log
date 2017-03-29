@@ -1,0 +1,10 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl D_error_drc.vhf -w C:/Xilinx/BLDC_Controller/D_error.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym D_error C:/Xilinx/BLDC_Controller/D_error.sch C:/Xilinx/BLDC_Controller/D_error.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl D_error_drc.vhf -w C:/Xilinx/BLDC_Controller/D_error.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym D_error C:/Xilinx/BLDC_Controller/D_error.sch C:/Xilinx/BLDC_Controller/D_error.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl D_error_drc.vhf -w C:/Xilinx/BLDC_Controller/D_error.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym D_error C:/Xilinx/BLDC_Controller/D_error.sch C:/Xilinx/BLDC_Controller/D_error.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl D_error_drc.vhf -w C:/Xilinx/BLDC_Controller/D_error.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym D_error C:/Xilinx/BLDC_Controller/D_error.sch C:/Xilinx/BLDC_Controller/D_error.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl D_error_drc.vhf -w C:/Xilinx/BLDC_Controller/D_error.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym D_error C:/Xilinx/BLDC_Controller/D_error.sch C:/Xilinx/BLDC_Controller/D_error.sym 

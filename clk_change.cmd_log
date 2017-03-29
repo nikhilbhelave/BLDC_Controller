@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl clk_change_drc.vhf -w C:/Xilinx/BLDC_Controller/clk_change.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym clk_change C:/Xilinx/BLDC_Controller/clk_change.sch C:/Xilinx/BLDC_Controller/clk_change.sym 

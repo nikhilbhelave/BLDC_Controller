@@ -1,0 +1,11 @@
+[Inputs]
+CLK
+E
+=W[3:0]=
+[Outputs]
+P
+X
+[BiDir]
+[ATTRIBUTES]
+VeriModel bit4_pwm
+

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Xilinx/BLDC_Controller/xst/projnav.tmp"
+set -xsthdpdir "C:/Xilinx/BLDC_Controller/xst"
+elaborate
+-ifn pwm_3.prj
+-ifmt mixed

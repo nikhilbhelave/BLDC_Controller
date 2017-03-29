@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Xilinx/BLDC_Controller/pid_sim_isim_beh.exe" -prj "C:/Xilinx/BLDC_Controller/pid_sim_beh.prj" "work.pid_sim" "work.glbl" 

@@ -1,0 +1,16 @@
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/CLOCK_32.v} -lang verilog -prj Complete_Fira_1.0 -o CLOCK_32.spl -module CLOCK_32 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w CLOCK_32.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/CLOCK_32.sym} 
+vhdtdtfi -lib work {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/CLOCK_32.v} -lang verilog -prj Complete_Fira_1.0 -o CLOCK_32.spl -module CLOCK_32 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w CLOCK_32.spl {C:/Users/Chaitanya Paikara/Documents/GitHub/FPGA/Complete_Fira_1.0/CLOCK_32.sym} 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/CLOCK_32.v -lang verilog -prj Akash_Driver_v1 -o CLOCK_32.spl -module CLOCK_32 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w CLOCK_32.spl C:/Xilinx/BLDC_Controller/CLOCK_32.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/CLOCK_32.v -lang verilog -prj Akash_Driver_v1 -o CLOCK_32.spl -module CLOCK_32 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w CLOCK_32.spl C:/Xilinx/BLDC_Controller/CLOCK_32.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/CLOCK_32.v -lang verilog -prj Akash_Driver_v1 -o CLOCK_32.spl -module CLOCK_32 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w CLOCK_32.spl C:/Xilinx/BLDC_Controller/CLOCK_32.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/CLOCK_32.v -lang verilog -prj Akash_Driver_v1 -o CLOCK_32.spl -module CLOCK_32 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w CLOCK_32.spl C:/Xilinx/BLDC_Controller/CLOCK_32.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/CLOCK_32.v -lang verilog -prj Akash_Driver_v1 -o CLOCK_32.spl -module CLOCK_32 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w CLOCK_32.spl C:/Xilinx/BLDC_Controller/CLOCK_32.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/CLOCK_32.v -lang verilog -prj Akash_Driver_v1 -o CLOCK_32.spl -module CLOCK_32 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w CLOCK_32.spl C:/Xilinx/BLDC_Controller/CLOCK_32.sym 

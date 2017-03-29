@@ -1,0 +1,4 @@
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/PWM102.v -lang verilog -prj Akash_Driver_v1 -o PWM102.spl -module PWM102 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM102.spl C:/Xilinx/BLDC_Controller/PWM102.sym 
+vhdtdtfi -lib work C:/Xilinx/BLDC_Controller/PWM102.v -lang verilog -prj Akash_Driver_v1 -o PWM102.spl -module PWM102 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w PWM102.spl C:/Xilinx/BLDC_Controller/PWM102.sym 

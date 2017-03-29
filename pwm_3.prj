@@ -1,0 +1,4 @@
+verilog work "pwm_3.v"
+vhdl work "MAIN.vhf"
+vhdl work "PWM_VNB.vhf"
+vhdl work "clk_change.vhf"

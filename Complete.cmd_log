@@ -1,0 +1,150 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf Complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Complete_drc.vhf -w C:/Xilinx/BLDC_Controller/Complete.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 
+sch2sym -intstyle ise -family spartan3e -w -refsym Complete C:/Xilinx/BLDC_Controller/Complete.sch C:/Xilinx/BLDC_Controller/Complete.sym 
+xst -intstyle ise -ifn "C:/Xilinx/BLDC_Controller/Complete.xst" -ofn "C:/Xilinx/BLDC_Controller/Complete.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc complete.ucf -p xc3s250e-cp132-5 Complete.ngc Complete.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o Complete_map.ncd Complete.ngd Complete.pcf 
+par -w -intstyle ise -ol high -t 1 Complete_map.ncd Complete.ncd Complete.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Complete.twx Complete.ncd -o Complete.twr Complete.pcf -ucf complete.ucf 
+bitgen -intstyle ise -f Complete.ut Complete.ncd 

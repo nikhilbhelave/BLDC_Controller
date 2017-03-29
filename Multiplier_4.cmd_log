@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym Multiplier_4 E:/FPGA_Xilinx/Complete_Fira_1.0_working_22_08_2015/Multiplier_4.sch E:/FPGA_Xilinx/Complete_Fira_1.0_working_22_08_2015/Multiplier_4.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Multiplier_4_drc.vhf -w C:/Xilinx/BLDC_Controller/Multiplier_4.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym Multiplier_4 C:/Xilinx/BLDC_Controller/Multiplier_4.sch C:/Xilinx/BLDC_Controller/Multiplier_4.sym 

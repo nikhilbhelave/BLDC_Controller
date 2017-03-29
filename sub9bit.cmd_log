@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "E:/FPGA_Xilinx/Complete_Fira_1.0/sub9bit.xst" -ofn "E:/FPGA_Xilinx/Complete_Fira_1.0/sub9bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 sub9bit.ngc sub9bit.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o sub9bit_map.ncd sub9bit.ngd sub9bit.pcf 
+xst -intstyle ise -ifn "E:/FPGA_Xilinx/Complete_Fira_1.0/sub9bit.xst" -ofn "E:/FPGA_Xilinx/Complete_Fira_1.0/sub9bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 sub9bit.ngc sub9bit.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o sub9bit_map.ncd sub9bit.ngd sub9bit.pcf 
+xst -intstyle ise -ifn "E:/FPGA_Xilinx/Complete_Fira_1.0/sub9bit.xst" -ofn "E:/FPGA_Xilinx/Complete_Fira_1.0/sub9bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 sub9bit.ngc sub9bit.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o sub9bit_map.ncd sub9bit.ngd sub9bit.pcf 
+xst -intstyle ise -ifn "E:/FPGA_Xilinx/Complete_Fira_1.0/sub9bit.xst" -ofn "E:/FPGA_Xilinx/Complete_Fira_1.0/sub9bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 sub9bit.ngc sub9bit.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o sub9bit_map.ncd sub9bit.ngd sub9bit.pcf 
+par -w -intstyle ise -ol high -t 1 sub9bit_map.ncd sub9bit.ncd sub9bit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sub9bit.twx sub9bit.ncd -o sub9bit.twr sub9bit.pcf 
+bitgen -intstyle ise -f sub9bit.ut sub9bit.ncd 
+xst -intstyle ise -ifn "E:/FPGA_Xilinx/Complete_Fira_1.0_working_22_08_2015/sub9bit.xst" -ofn "E:/FPGA_Xilinx/Complete_Fira_1.0_working_22_08_2015/sub9bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 sub9bit.ngc sub9bit.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o sub9bit_map.ncd sub9bit.ngd sub9bit.pcf 
+par -w -intstyle ise -ol high -t 1 sub9bit_map.ncd sub9bit.ncd sub9bit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sub9bit.twx sub9bit.ncd -o sub9bit.twr sub9bit.pcf 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl sub9bit_drc.vhf -w C:/Xilinx/BLDC_Controller/sub9bit.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym sub9bit C:/Xilinx/BLDC_Controller/sub9bit.sch C:/Xilinx/BLDC_Controller/sub9bit.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl sub9bit_drc.vhf -w C:/Xilinx/BLDC_Controller/sub9bit.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym sub9bit C:/Xilinx/BLDC_Controller/sub9bit.sch C:/Xilinx/BLDC_Controller/sub9bit.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl sub9bit_drc.vhf -w C:/Xilinx/BLDC_Controller/sub9bit.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym sub9bit C:/Xilinx/BLDC_Controller/sub9bit.sch C:/Xilinx/BLDC_Controller/sub9bit.sym 
